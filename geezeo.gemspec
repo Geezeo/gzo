@@ -6,11 +6,11 @@ require "geezeo/version"
 Gem::Specification.new do |spec|
   spec.name          = "geezeo"
   spec.version       = Geezeo::VERSION
-  spec.authors       = ["TODO: Write your name"]
+  spec.authors       = ["Fuzz Leonard"]
   spec.email         = ["fuzz@fuzzleonard.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{A simple Ruby wrapper for the Geezeo API}
+  spec.summary       = %q{A simple Ruby wrapper for the Geezeo API. Sandbox Edition.}
+  spec.homepage      = "https://github.com/fuzz/geezeo"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
@@ -18,6 +18,11 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
+  spec.add_dependency "httparty"
+  spec.add_dependency "json"
+  
   spec.add_development_dependency "bundler", "~> 1.3"
+  spec.add_development_dependency "pry"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "rspec"
 end
