@@ -1,8 +1,8 @@
 require "spec_helper"
 
-describe Geezeo::Client do
+describe "Geezeo accounts" do
   before(:each) do
-    @client = Geezeo::Client.new(credentials)
+    @client = Geezeo.client(credentials[:api_key], credentials[:user_id])
   end
 
   it "gets a list of accounts" do
