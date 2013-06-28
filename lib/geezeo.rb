@@ -1,7 +1,10 @@
+require "httparty"
 require "json"
 
 require "geezeo/client"
 require "geezeo/version"
+
+require "geezeo/adapters/accounts"
 
 module Geezeo
   class << self
