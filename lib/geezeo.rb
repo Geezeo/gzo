@@ -1,5 +1,5 @@
+require "geezeo/client"
 require "geezeo/version"
 
 module Geezeo
-  # Your code goes here...
 end
