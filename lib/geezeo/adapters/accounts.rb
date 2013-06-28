@@ -10,6 +10,7 @@ module Geezeo
       def all
         response = HTTParty.get("#{HOST}/users/#{credentials.user_id}#{path}",
           basic_auth: {username: credentials.api_key, password: ""})
+        response["accounts"].map{|x| Hashie::Mash.new(x)}
       end
 
       def path
