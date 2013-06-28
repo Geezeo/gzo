@@ -1,6 +1,7 @@
 require "httparty"
 require "json"
 
+require "geezeo/credentials"
 require "geezeo/client"
 require "geezeo/version"
 
@@ -14,7 +15,7 @@ module Geezeo
     # == Examples
     #   Geezeo.client('api_key', 'user_id')
     #
-    # @return [Geezeo::Base]
+    # @return [Geezeo::Client]
     def client(api_key, user_id)
       Geezeo::Client.new(api_key, user_id)
     end
