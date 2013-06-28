@@ -3,6 +3,7 @@ require "json"
 
 require "geezeo/credentials"
 require "geezeo/client"
+require "geezeo/host"
 require "geezeo/version"
 
 require "geezeo/adapters/accounts"
