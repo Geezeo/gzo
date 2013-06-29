@@ -5,7 +5,7 @@ describe "Geezeo accounts" do
     @geezeo = Geezeo.client(credentials["api_key"], credentials["user_id"])
   end
 
-  it "gets a list of accounts" do
+  it "gets a list of all accounts" do
     account = @geezeo.accounts.all.first
 
     account.id.should_not be_nil
@@ -15,5 +15,17 @@ describe "Geezeo accounts" do
     balance = @geezeo.accounts.sum_of_balances
 
     balance.should be_kind_of(Float)
+  end
+end
+
+describe "Geezeo transactions" do
+  before(:each) do
+    @geezeo = Geezeo.client(credentials["api_key"], credentials["user_id"])
+  end
+
+  it "gets a list of all transactions" do
+    transaction = @geezeo.transactions.all.first
+
+    transaction.id_should_not be_nil
   end
 end
