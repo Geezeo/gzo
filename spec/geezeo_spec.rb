@@ -29,10 +29,16 @@ describe "Geezeo transactions" do
     transaction.id.should_not be_nil
   end
 
-  it "gets a list of all transactions" do
-    transaction = @geezeo.transactions.recent(30).first
+  it "gets a list of all recent transactions" do
+    transaction = @geezeo.transactions.recent.first
 
     transaction.id.should_not be_nil
   end
 
+  it "gets a single page of transactions" do
+    account = @geezeo.accounts.all.first
+    transaction = @geezeo.transactions.find_by_account(account).first
+
+    transaction.id.should_not be_nil
+  end
 end
