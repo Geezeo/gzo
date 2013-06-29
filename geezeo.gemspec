@@ -9,7 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Fuzz Leonard"]
   spec.email         = ["fuzz@fuzzleonard.com"]
   spec.description   = %q{A simple Ruby wrapper for the Geezeo API}
-  spec.summary       = %q{A simple Ruby wrapper for the Geezeo API. Sandbox Edition.}
+  spec.summary       = %q{A simple Ruby wrapper for the Geezeo API.
+                          Sandbox Edition.}
   spec.homepage      = "https://github.com/fuzz/geezeo"
   spec.license       = "MIT"
 

@@ -7,13 +7,14 @@ module Geezeo
         @credentials = credentials
       end
 
-      def path(account)
-        "/accounts/#{account.id}/transactions"
+      def path(account, page)
+        "/accounts/#{account.id}/transactions?page=#{page}"
       end 
 
       def all
         accounts = Geezeo::Adapters::Accounts.new(credentials).all
-        transactions = accounts.map{|account| find_all_by_account(account)}.flatten
+        transactions = accounts.map{|account|
+                                      find_all_by_account(account)}.flatten
 
         sort_by_posted_at(transactions)
       end
@@ -49,13 +50,14 @@ module Geezeo
 
       def recent
         accounts = Geezeo::Adapters::Accounts.new(credentials).all
-        transactions = accounts.map{|account| find_by_account(account)}.flatten
+        transactions = accounts.map{|account| 
+                                      find_by_account(account)}.flatten
 
         sort_by_posted_at(transactions)
       end
 
       def request(account, page=1)
-        uri = "#{HOST}/users/#{credentials.user_id}/#{path(account)}?page=#{page}"
+        uri = "#{HOST}/users/#{credentials.user_id}/#{path(account, page)}"
         HTTParty.get(uri, basic_auth:
                             {username: credentials.api_key, password: ""})
       end
