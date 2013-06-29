@@ -8,6 +8,7 @@ require "geezeo/host"
 require "geezeo/version"
 
 require "geezeo/adapters/accounts"
+require "geezeo/adapters/transactions"
 
 module Geezeo
   class << self

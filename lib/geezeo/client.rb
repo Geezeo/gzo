@@ -9,5 +9,9 @@ module Geezeo
     def accounts
       @accounts ||= Geezeo::Adapters::Accounts.new(credentials)
     end
+
+    def transactions
+      @transactions ||= Geezeo::Adapters::Transactions.new(credentials)
+    end
   end
 end
