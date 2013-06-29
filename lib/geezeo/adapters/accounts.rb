@@ -17,10 +17,6 @@ module Geezeo
         response["accounts"].map{|account| Hashie::Mash.new(account)}
       end
 
-      def ids
-        all.map{|account| account.id.to_i}
-      end
-
       def sum_of_balances
         all.map{|account| account.balance.to_f}.reduce :+
       end
