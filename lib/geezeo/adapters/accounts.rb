@@ -13,6 +13,10 @@ module Geezeo
         response["accounts"].map{|account| Hashie::Mash.new(account)}
       end
 
+      def sum_of_balances
+        all.map{|account| account.balance.to_f}.reduce :+
+      end
+
       def path
         "/accounts"
       end

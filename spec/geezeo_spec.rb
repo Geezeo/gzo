@@ -6,14 +6,14 @@ describe "Geezeo accounts" do
   end
 
   it "gets a list of accounts" do
-    @account = @geezeo.accounts.all.first
+    account = @geezeo.accounts.all.first
 
-    @account.id.should_not be_nil
+    account.id.should_not be_nil
   end
 
   it "gets the sum of all account balances" do
-    @balance = @geezeo.accounts.sum_of_balances
+    balance = @geezeo.accounts.sum_of_balances
 
-    @balance.should be_kind_of(Float)
+    balance.should be_kind_of(Float)
   end
 end
