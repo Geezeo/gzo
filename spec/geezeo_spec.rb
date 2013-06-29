@@ -24,9 +24,19 @@ describe "Geezeo transactions" do
   end
 
   it "gets a list of all transactions" do
-    accounts = @geezeo.accounts.all
-    transaction = @geezeo.transactions.all(accounts).first
+    transaction = @geezeo.transactions.all.first
 
     transaction.id.should_not be_nil
   end
+
+  it "gets a list of all transactions" do
+    transaction = @geezeo.transactions.recent(30).first
+
+    puts @geezeo.transactions.recent(30)    
+
+    #puts transaction
+
+    transaction.id.should_not be_nil
+  end
+
 end

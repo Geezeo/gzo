@@ -11,7 +11,8 @@ module Geezeo
         "/transactions"
       end 
 
-      def all(accounts)
+      def all
+        accounts = Geezeo::Adapters::Accounts.new(credentials).all
         accounts.map{|account| find_by_account(account)}.flatten
       end
 
@@ -19,7 +20,19 @@ module Geezeo
         response = HTTParty.get("#{HOST}/users/#{credentials.user_id}/accounts/#{account.id}/#{path}",
           basic_auth: {username: credentials.api_key, password: ""})
         response["transactions"].map{|transaction| Hashie::Mash.new(transaction["transaction"])}
-      end           
+      end
+
+      def posted_at(transaction)
+        Time.parse(transaction.posted_at)
+      end
+
+      def recent(period=3)
+        recents = all.map do |transaction| 
+          transaction if posted_at(transaction) > period.days.ago
+        end
+
+        recents.sort_by{|transaction| posted_at(transaction)}.reverse
+      end
     end
   end
 end
