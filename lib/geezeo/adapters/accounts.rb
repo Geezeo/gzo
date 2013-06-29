@@ -14,7 +14,11 @@ module Geezeo
       def all
         response = HTTParty.get("#{HOST}/users/#{credentials.user_id}#{path}",
           basic_auth: {username: credentials.api_key, password: ""})
-        response["accounts"].map{|account| Geezeo::Account.new(account)}
+
+        response["accounts"].map do |account|
+          account["credentials"] = credentials
+          Geezeo::Account.new(account)
+        end
       end
 
       def sum_of_balances

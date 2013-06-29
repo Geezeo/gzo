@@ -16,6 +16,15 @@ describe "Geezeo accounts" do
 
     balance.should be_kind_of(Float)
   end
+
+  it "returns a list of its transactions" do
+    account = @geezeo.accounts.all.first
+    transaction = account.transactions.first
+
+    #binding.pry
+
+    transaction.id.should_not be_nil
+  end
 end
 
 describe "Geezeo transactions" do

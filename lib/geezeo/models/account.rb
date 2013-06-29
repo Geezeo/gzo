@@ -12,5 +12,9 @@ module Geezeo
   # [+harvest_updated_at+] the harvest updated at of the account
   # [+account_type+] the account type of the account
   # [+fi+] the fi of the account
-  class Account < Hashie::Mash; end
+  class Account < Hashie::Mash
+    def transactions
+      Geezeo::Adapters::Transactions.new(self.credentials).find_all_by_account(self).flatten
+    end
+  end
 end

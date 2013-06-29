@@ -23,10 +23,10 @@ module Geezeo
         results = []
 
         pages.times do |page|
-          results << find_by_account(account, page)
+          results << find_by_account(account, page+1)
         end
 
-        results
+        results.compact
       end
 
       def find_by_account(account, page=1)
