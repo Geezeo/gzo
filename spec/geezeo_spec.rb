@@ -32,10 +32,6 @@ describe "Geezeo transactions" do
   it "gets a list of all transactions" do
     transaction = @geezeo.transactions.recent(30).first
 
-    puts @geezeo.transactions.recent(30)    
-
-    #puts transaction
-
     transaction.id.should_not be_nil
   end
 

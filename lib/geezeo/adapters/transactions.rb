@@ -7,8 +7,8 @@ module Geezeo
         @credentials = credentials
       end
 
-      def path
-        "/transactions"
+      def path(account)
+        "/accounts/#{account.id}/transactions"
       end 
 
       def all
@@ -17,7 +17,7 @@ module Geezeo
       end
 
       def find_by_account(account)
-        response = HTTParty.get("#{HOST}/users/#{credentials.user_id}/accounts/#{account.id}/#{path}",
+        response = HTTParty.get("#{HOST}/users/#{credentials.user_id}/#{path(account)}",
           basic_auth: {username: credentials.api_key, password: ""})
         response["transactions"].map{|transaction| Hashie::Mash.new(transaction["transaction"])}
       end
