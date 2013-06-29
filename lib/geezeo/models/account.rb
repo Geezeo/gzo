@@ -12,6 +12,5 @@ module Geezeo
   # [+harvest_updated_at+] the harvest updated at of the account
   # [+account_type+] the account type of the account
   # [+fi+] the fi of the account
-  class Account < Hashie::Mash
-  end
+  class Account < Hashie::Mash; end
 end
