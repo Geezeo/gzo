@@ -19,7 +19,10 @@ module Geezeo
       def find_by_account(account)
         response = HTTParty.get("#{HOST}/users/#{credentials.user_id}/#{path(account)}",
           basic_auth: {username: credentials.api_key, password: ""})
-        response["transactions"].map{|transaction| Hashie::Mash.new(transaction["transaction"])}
+        
+        response["transactions"].map do |transaction|
+          Geezeo::Transaction.new(transaction["transaction"])
+        end
       end
 
       def posted_at(transaction)
