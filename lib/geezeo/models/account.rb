@@ -13,8 +13,16 @@ module Geezeo
   # [+account_type+] the account type of the account
   # [+fi+] the fi of the account
   class Account < Hashie::Mash
+    def recent_transactions
+      transactions_adapter.find_by_account(self).flatten
+    end
+
     def transactions
-      Geezeo::Adapters::Transactions.new(self.credentials).find_all_by_account(self).flatten
+      transactions_adapter.find_all_by_account(self).flatten
+    end
+
+    def transactions_adapter
+      Geezeo::Adapters::Transactions.new(self.credentials)
     end
   end
 end

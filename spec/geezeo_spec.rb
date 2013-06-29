@@ -21,7 +21,12 @@ describe "Geezeo accounts" do
     account = @geezeo.accounts.all.first
     transaction = account.transactions.first
 
-    #binding.pry
+    transaction.id.should_not be_nil
+  end
+
+  it "returns a list of its recent transactions" do
+    account = @geezeo.accounts.all.first
+    transaction = account.recent_transactions.first
 
     transaction.id.should_not be_nil
   end
