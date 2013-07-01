@@ -13,24 +13,29 @@ module Geezeo
 
       def all
         accounts = Geezeo::Adapters::Accounts.new(credentials).all
-        transactions = accounts.map{|account|
-                                      find_all_by_account(account)}.flatten
+        transactions = accounts.map{|account| find_all(account)}.flatten
 
         sort_by_posted_at(transactions)
       end
 
-      def find_all_by_account(account)
+      def find_all(account, transaction_id="")
         pages = total_pages(account)
         results = []
 
         pages.times do |page|
-          results << find_by_account(account, page+1)
+          find(account, page+1).each do |transaction|
+            if transaction["id"] == transaction_id
+              return results.compact
+            else
+              results << transaction
+            end
+          end
         end
 
         results.compact
       end
 
-      def find_by_account(account, page=1)
+      def find(account, page=1)
         response = request(account, page)
 
         if response["transactions"]
@@ -50,8 +55,7 @@ module Geezeo
 
       def recent
         accounts = Geezeo::Adapters::Accounts.new(credentials).all
-        transactions = accounts.map{|account| 
-                                      find_by_account(account)}.flatten
+        transactions = accounts.map{|account| find(account)}.flatten
 
         sort_by_posted_at(transactions)
       end

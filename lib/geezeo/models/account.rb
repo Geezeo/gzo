@@ -14,11 +14,11 @@ module Geezeo
   # [+fi+] the fi of the account
   class Account < Hashie::Mash
     def recent_transactions
-      transactions_adapter.find_by_account(self).flatten
+      transactions_adapter.find(self).flatten
     end
 
-    def transactions
-      transactions_adapter.find_all_by_account(self).flatten
+    def transactions(transaction_id="")
+      transactions_adapter.find_all(self, transaction_id).flatten
     end
 
     def transactions_adapter

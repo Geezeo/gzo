@@ -30,6 +30,17 @@ describe "Geezeo accounts" do
 
     transaction.id.should_not be_nil
   end
+
+  # TODO: make this test less brittle
+  it "returns a list of all transactions after the transaction_id passed" do
+    last_transaction_id = "d6bac79d-935a-4416-83a0-24bdd83fbc1c"
+    account = @geezeo.accounts.all.first
+    transaction = account.transactions(last_transaction_id).first
+    last_transaction = account.transactions(last_transaction_id).last
+
+    transaction.id.should_not be_nil
+    last_transaction.id.should eq("4471f06a-a3ac-4d7c-95c3-402203623c25")
+  end
 end
 
 describe "Geezeo transactions" do
@@ -51,7 +62,7 @@ describe "Geezeo transactions" do
 
   it "gets a single page of transactions" do
     account = @geezeo.accounts.all.first
-    transaction = @geezeo.transactions.find_by_account(account).first
+    transaction = @geezeo.transactions.find(account).first
 
     transaction.id.should_not be_nil
   end
