@@ -13,5 +13,9 @@ module Geezeo
     def transactions
       @transactions ||= Geezeo::Adapters::Transactions.new(credentials)
     end
+
+    def user
+      @user ||= Geezeo::Adapters::User.new(credentials).me
+    end
   end
 end

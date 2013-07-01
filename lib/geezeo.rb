@@ -9,9 +9,11 @@ require "geezeo/version"
 
 require "geezeo/adapters/accounts"
 require "geezeo/adapters/transactions"
+require "geezeo/adapters/user"
 
 require "geezeo/models/account"
 require "geezeo/models/transaction"
+require "geezeo/models/user"
 
 module Geezeo
   class << self
