@@ -55,4 +55,19 @@ describe "Geezeo transactions" do
 
     transaction.id.should_not be_nil
   end
+
+  describe "Geezeo user" do
+    before(:each) do
+      @geezeo = Geezeo.client(credentials["api_key"], credentials["user_id"])
+    end
+
+    it "returns user data" do
+      user = @geezeo.user
+
+      user.id.should be_kind_of(Integer)
+      user.partner_customer_id.should be_kind_of(String)
+      user.first_name.should be_kind_of(String)
+      user.last_name.should be_kind_of(String)
+    end
+  end
 end
