@@ -15,7 +15,7 @@ module Geezeo
         response = HTTParty.get("#{HOST}/users/#{credentials.user_id}#{path}/#{account_id}",
           basic_auth: {username: credentials.api_key, password: ""})
 
-        account["credentials"] = credentials
+        response["credentials"] = credentials
         Geezeo::Account.new(response)
       end
 
