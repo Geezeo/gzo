@@ -36,7 +36,7 @@ module Geezeo
       end
 
       def find(account_id, page=1)
-        account = account_id.is_a?(Integer) ? Geezeo::Adapters::Accounts.new(credentials).all.find(account_id) : account_id
+        account = account_id.is_a?(Integer) ? Geezeo::Adapters::Accounts.new(credentials).find(account_id) : account_id
 
         response = request(account, page)
 
