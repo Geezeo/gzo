@@ -36,6 +36,7 @@ module Geezeo
       end
 
       def find(account, page=1)
+        account = Geezeo::Adapters::Accounts.new(credentials).all.find(account) if account.is_a?(Integer)
         response = request(account, page)
 
         if response["transactions"]
