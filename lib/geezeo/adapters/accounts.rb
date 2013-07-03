@@ -11,6 +11,13 @@ module Geezeo
         "/accounts"
       end
 
+      def find(account_id)
+        response = HTTParty.get("#{HOST}/users/#{credentials.user_id}#{path}/#{account_id}",
+          basic_auth: {username: credentials.api_key, password: ""})
+
+        Geezeo::Account.new(response)
+      end
+
       def all
         response = HTTParty.get("#{HOST}/users/#{credentials.user_id}#{path}",
           basic_auth: {username: credentials.api_key, password: ""})

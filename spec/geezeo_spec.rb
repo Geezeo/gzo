@@ -11,6 +11,13 @@ describe "Geezeo accounts" do
     account.id.should_not be_nil
   end
 
+  it "gets a single account" do
+    account_id = @geezeo.accounts.all.first.id
+    account = @geezeo.accounts.find(account_id)
+
+    account.id.should_not be_nil
+  end
+
   it "gets the sum of all account balances" do
     balance = @geezeo.accounts.sum_of_balances
 
