@@ -2,6 +2,8 @@ require "hashie"
 require "httparty"
 require "json"
 
+require "geezeo/configuration"
+
 require "geezeo/credentials"
 require "geezeo/client"
 require "geezeo/host"
