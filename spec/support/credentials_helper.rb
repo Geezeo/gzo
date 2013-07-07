@@ -2,7 +2,7 @@ module CredentialsHelper
   def self.credentials
     credentials_file = "#{File.dirname(__FILE__)}/geezeo_credentials.json"
     unless File.exist?(credentials_file)
-      raise "You need credentials in config/geezeo_credentials.json"
+      raise "You need credentials in support/geezeo_credentials.json"
     end
     @credentials ||= json_load(credentials_file)
   end
