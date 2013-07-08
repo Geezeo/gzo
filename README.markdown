@@ -31,7 +31,7 @@ If you wish to record new cassettes please set VCR_RECORD.
 
 	bundle exec rspec VCR_RECORD=true
 
-For this to work you must have a file ~/.geezeo/credentials.rb with valid
+For this to work you must have a ~/.geezeo/credentials.rb file with valid
 Geezeo API credentials.
 
 ```ruby
