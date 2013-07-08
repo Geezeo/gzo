@@ -35,10 +35,10 @@ Geezeo API credentials.
 
 	```ruby
 	Geezeo.configure do |config|
-      config.api_key = "abc123"
-      config.user_id = "testy"
-    end
-    ```
+    config.api_key = "abc123"
+    config.user_id = "testy"
+  end
+  ```
 
 If you wish to contribute your cassettes back to the project please anonymize
 them by replacing all occurrences of your api_key and user_id with "abc123"
