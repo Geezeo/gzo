@@ -24,6 +24,7 @@ Or install it yourself as:
 ## Contributing
 
 ### Credentials
+
 The tests will run without credentials using the included VCR cassettes.
 
 If you wish to record new cassettes please set VCR_RECORD.
@@ -45,6 +46,7 @@ them by replacing all occurrences of your api_key and user_id with "abc123"
 and "testy" respectively. This will be necessary in order for further test
 runs to pass without setting VCR_RECORD.
 
+### Pull requests
 
 1. Fork it
 2. Create your feature branch (`git checkout -b feature/my-new-feature`)
