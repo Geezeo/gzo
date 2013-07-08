@@ -1,12 +1,13 @@
 require "spec_helper"
 
-describe "Geezeo accounts" do
+describe "Geezeo accounts", :vcr do
   before(:each) do
     @geezeo = Geezeo.client(credentials["api_key"], credentials["user_id"])
   end
 
   it "gets a list of all accounts" do
     account = @geezeo.accounts.all.first
+
 
     account.id.should_not be_nil
   end
@@ -50,7 +51,7 @@ describe "Geezeo accounts" do
   end
 end
 
-describe "Geezeo transactions" do
+describe "Geezeo transactions", :vcr do
   before(:each) do
     @geezeo = Geezeo.client(credentials["api_key"], credentials["user_id"])
   end
@@ -73,19 +74,19 @@ describe "Geezeo transactions" do
 
     transaction.id.should_not be_nil
   end
+end
 
-  describe "Geezeo user" do
-    before(:each) do
-      @geezeo = Geezeo.client(credentials["api_key"], credentials["user_id"])
-    end
+describe "Geezeo user", :vcr do
+  before(:each) do
+    @geezeo = Geezeo.client(credentials["api_key"], credentials["user_id"])
+  end
 
-    it "returns user data" do
-      user = @geezeo.user
+  it "returns user data" do
+    user = @geezeo.user
 
-      user.id.should be_kind_of(Integer)
-      user.partner_customer_id.should be_kind_of(String)
-      user.first_name.should be_kind_of(String)
-      user.last_name.should be_kind_of(String)
-    end
+    user.id.should be_kind_of(Integer)
+    user.partner_customer_id.should be_kind_of(String)
+    user.first_name.should be_kind_of(String)
+    user.last_name.should be_kind_of(String)
   end
 end

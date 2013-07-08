@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/fuzz/geezeo.png?branch=master)](https://travis-ci.org/fuzz/geezeo)
+[![Code Climate](https://codeclimate.com/github/fuzz/geezeo.png)](https://codeclimate.com/github/fuzz/geezeo)
+[![Coverage Status](https://coveralls.io/repos/fuzz/geezeo/badge.png?branch=master)](https://coveralls.io/r/fuzz/geezeo?branch=master)
+
 # Geezeo
 
 A simple Ruby wrapper for the Geezeo API

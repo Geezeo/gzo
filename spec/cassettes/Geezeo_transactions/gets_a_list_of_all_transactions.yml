@@ -1,0 +1,1075 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy/accounts
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 08 Jul 2013 21:59:10 GMT
+      Status:
+      - 200 OK
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - '"a29ef53449da5ddf0dbd77957ad726c8"'
+      Cache-Control:
+      - must-revalidate, private, max-age=0, no-cache, no-store
+      X-Runtime:
+      - '0.279591'
+      X-Rack-Cache:
+      - miss
+      Vary:
+      - Accept-Encoding,User-Agent
+      P3p:
+      - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
+      X-Request-Start:
+      - t=1373320750350753
+      X-Trace:
+      - 1B59CB63A9CD89A6665B1AEFBDF94D9A5954C80372D49366F6404C17AB
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"accounts":[{"id":4372082,"name":"eChecking","balance":"300.54","reference_id":"789274930","aggregation_type":"partner","state":"active","harvest_updated_at":null,"account_type":null,"fi":null},{"id":4372083,"name":"Complete
+        Savings","balance":"1000.0","reference_id":"278914032","aggregation_type":"partner","state":"active","harvest_updated_at":null,"account_type":null,"fi":null},{"id":4372084,"name":"Preferred
+        Plus Card","balance":"769.88","reference_id":"10984092","aggregation_type":"partner","state":"active","harvest_updated_at":null,"account_type":null,"fi":null}]}'
+    http_version: 
+  recorded_at: Mon, 08 Jul 2013 21:59:11 GMT
+- request:
+    method: get
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372082/transactions?page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 08 Jul 2013 21:59:11 GMT
+      Status:
+      - 200 OK
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - '"4b0820c08b44461c6e1112848813f548"'
+      Cache-Control:
+      - must-revalidate, private, max-age=0, no-cache, no-store
+      X-Runtime:
+      - '0.086099'
+      X-Rack-Cache:
+      - miss
+      Vary:
+      - Accept-Encoding,User-Agent
+      P3p:
+      - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
+      X-Request-Start:
+      - t=1373320751118983
+      X-Trace:
+      - 1BFDDD7E31AD28AF9670176F3BF794F4A9C8FD4061F43CAAFD9E6DAB9B
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pages":{"total_pages":6,"current_page":1},"transactions":[{"transaction":{"id":"a5ac6f90-6319-4065-93a6-b502f182f53c","reference_id":null,"transaction_type":"Debit","memo":"GameStop","balance":59.99,"posted_at":"2013-06-20T00:00:00+00:00","created_at":"2013-06-20T23:47:45+00:00","nickname":"GameStop","original_name":"GameStop","check_number":null,"tags":[{"tag":{"name":"Entertainment","balance":59.99}}]}},{"transaction":{"id":"4471f06a-a3ac-4d7c-95c3-402203623c25","reference_id":null,"transaction_type":"Debit","memo":"Check
+        #125","balance":200.0,"posted_at":"2013-06-19T00:00:00+00:00","created_at":"2013-06-20T23:47:46+00:00","nickname":"Check
+        #125","original_name":"Check #125","check_number":null,"tags":[{"tag":{"name":"Personal","balance":200.0}}]}},{"transaction":{"id":"d6bac79d-935a-4416-83a0-24bdd83fbc1c","reference_id":null,"transaction_type":"Credit","memo":"Company
+        Payroll","balance":2809.85,"posted_at":"2013-06-18T00:00:00+00:00","created_at":"2013-06-20T23:47:47+00:00","nickname":"Company
+        Payroll","original_name":"Company Payroll","check_number":null,"tags":[{"tag":{"name":"Income","balance":2809.85}}]}},{"transaction":{"id":"08709837-a4b2-4c10-8ffb-02a96c24d98d","reference_id":null,"transaction_type":"Debit","memo":"California
+        Pizza Kitchen","balance":35.45,"posted_at":"2013-06-15T00:00:00+00:00","created_at":"2013-06-20T23:47:47+00:00","nickname":"California
+        Pizza Kitchen","original_name":"California Pizza Kitchen","check_number":null,"tags":[{"tag":{"name":"Diningout","balance":35.45}}]}},{"transaction":{"id":"bf026b9a-8f5b-4aa6-a547-526b6acc52c9","reference_id":null,"transaction_type":"Debit","memo":"Progressive
+        Insurance","balance":160.48,"posted_at":"2013-06-12T00:00:00+00:00","created_at":"2013-06-20T23:47:48+00:00","nickname":"Progressive
+        Insurance","original_name":"Progressive Insurance","check_number":null,"tags":[{"tag":{"name":"Utilities","balance":160.48}}]}},{"transaction":{"id":"c5d612b8-d300-477c-954f-a3417042001e","reference_id":null,"transaction_type":"Debit","memo":"Dicks
+        Sporting Goods","balance":45.63,"posted_at":"2013-06-10T00:00:00+00:00","created_at":"2013-06-20T23:47:49+00:00","nickname":"Dicks
+        Sporting Goods","original_name":"Dicks Sporting Goods","check_number":null,"tags":[{"tag":{"name":"Personal","balance":45.63}}]}}]}'
+    http_version: 
+  recorded_at: Mon, 08 Jul 2013 21:59:11 GMT
+- request:
+    method: get
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372082/transactions?page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 08 Jul 2013 21:59:11 GMT
+      Status:
+      - 200 OK
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - '"4b0820c08b44461c6e1112848813f548"'
+      Cache-Control:
+      - must-revalidate, private, max-age=0, no-cache, no-store
+      X-Runtime:
+      - '0.090192'
+      X-Rack-Cache:
+      - miss
+      Vary:
+      - Accept-Encoding,User-Agent
+      P3p:
+      - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
+      X-Request-Start:
+      - t=1373320751703412
+      X-Trace:
+      - 1BE801ABA9DE3F83706BF37C81DD37EDF0174DD42A2102C3F1026F660D
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pages":{"total_pages":6,"current_page":1},"transactions":[{"transaction":{"id":"a5ac6f90-6319-4065-93a6-b502f182f53c","reference_id":null,"transaction_type":"Debit","memo":"GameStop","balance":59.99,"posted_at":"2013-06-20T00:00:00+00:00","created_at":"2013-06-20T23:47:45+00:00","nickname":"GameStop","original_name":"GameStop","check_number":null,"tags":[{"tag":{"name":"Entertainment","balance":59.99}}]}},{"transaction":{"id":"4471f06a-a3ac-4d7c-95c3-402203623c25","reference_id":null,"transaction_type":"Debit","memo":"Check
+        #125","balance":200.0,"posted_at":"2013-06-19T00:00:00+00:00","created_at":"2013-06-20T23:47:46+00:00","nickname":"Check
+        #125","original_name":"Check #125","check_number":null,"tags":[{"tag":{"name":"Personal","balance":200.0}}]}},{"transaction":{"id":"d6bac79d-935a-4416-83a0-24bdd83fbc1c","reference_id":null,"transaction_type":"Credit","memo":"Company
+        Payroll","balance":2809.85,"posted_at":"2013-06-18T00:00:00+00:00","created_at":"2013-06-20T23:47:47+00:00","nickname":"Company
+        Payroll","original_name":"Company Payroll","check_number":null,"tags":[{"tag":{"name":"Income","balance":2809.85}}]}},{"transaction":{"id":"08709837-a4b2-4c10-8ffb-02a96c24d98d","reference_id":null,"transaction_type":"Debit","memo":"California
+        Pizza Kitchen","balance":35.45,"posted_at":"2013-06-15T00:00:00+00:00","created_at":"2013-06-20T23:47:47+00:00","nickname":"California
+        Pizza Kitchen","original_name":"California Pizza Kitchen","check_number":null,"tags":[{"tag":{"name":"Diningout","balance":35.45}}]}},{"transaction":{"id":"bf026b9a-8f5b-4aa6-a547-526b6acc52c9","reference_id":null,"transaction_type":"Debit","memo":"Progressive
+        Insurance","balance":160.48,"posted_at":"2013-06-12T00:00:00+00:00","created_at":"2013-06-20T23:47:48+00:00","nickname":"Progressive
+        Insurance","original_name":"Progressive Insurance","check_number":null,"tags":[{"tag":{"name":"Utilities","balance":160.48}}]}},{"transaction":{"id":"c5d612b8-d300-477c-954f-a3417042001e","reference_id":null,"transaction_type":"Debit","memo":"Dicks
+        Sporting Goods","balance":45.63,"posted_at":"2013-06-10T00:00:00+00:00","created_at":"2013-06-20T23:47:49+00:00","nickname":"Dicks
+        Sporting Goods","original_name":"Dicks Sporting Goods","check_number":null,"tags":[{"tag":{"name":"Personal","balance":45.63}}]}}]}'
+    http_version: 
+  recorded_at: Mon, 08 Jul 2013 21:59:12 GMT
+- request:
+    method: get
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372082/transactions?page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 08 Jul 2013 21:59:13 GMT
+      Status:
+      - 200 OK
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - '"8ac79c695f0f36da129c99c477e8af04"'
+      Cache-Control:
+      - must-revalidate, private, max-age=0, no-cache, no-store
+      X-Runtime:
+      - '0.091443'
+      X-Rack-Cache:
+      - miss
+      Vary:
+      - Accept-Encoding,User-Agent
+      P3p:
+      - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
+      X-Request-Start:
+      - t=1373320753111934
+      X-Trace:
+      - 1B7CA7D2C97935FF839F1FB3CA706C1026F0EF30ACB80D6D38BEE768EC
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pages":{"total_pages":6,"current_page":2},"transactions":[{"transaction":{"id":"19925790-2f0a-4787-833d-47f946728040","reference_id":null,"transaction_type":"Debit","memo":"Discount
+        Liquors","balance":27.42,"posted_at":"2013-06-05T00:00:00+00:00","created_at":"2013-06-20T23:47:50+00:00","nickname":"Discount
+        Liquors","original_name":"Discount Liquors","check_number":null,"tags":[{"tag":{"name":"Groceries","balance":27.42}}]}},{"transaction":{"id":"f9190fab-24db-4c1c-8cac-f4bb3fb5c215","reference_id":null,"transaction_type":"Debit","memo":"Dunkin
+        Donuts","balance":3.84,"posted_at":"2013-06-02T00:00:00+00:00","created_at":"2013-06-20T23:47:50+00:00","nickname":"Dunkin
+        Donuts","original_name":"Dunkin Donuts","check_number":null,"tags":[{"tag":{"name":"Coffee","balance":3.84}}]}},{"transaction":{"id":"7543edca-c9a1-42ed-a7a5-466b67166a76","reference_id":null,"transaction_type":"Debit","memo":"Abercrombie
+        & Fitch","balance":89.57,"posted_at":"2013-06-01T00:00:00+00:00","created_at":"2013-06-20T23:47:51+00:00","nickname":"Abercrombie
+        & Fitch","original_name":"Abercrombie & Fitch","check_number":null,"tags":[{"tag":{"name":"Clothing","balance":89.57}}]}},{"transaction":{"id":"43706427-310c-4f7c-9570-6edc3b602037","reference_id":null,"transaction_type":"Debit","memo":"Verizon
+        Wireless","balance":58.26,"posted_at":"2013-05-29T00:00:00+00:00","created_at":"2013-06-20T23:47:52+00:00","nickname":"Verizon
+        Wireless","original_name":"Verizon Wireless","check_number":null,"tags":[{"tag":{"name":"Utilities","balance":58.26}}]}},{"transaction":{"id":"3150be86-b144-4942-934e-2c6df71beda3","reference_id":null,"transaction_type":"Debit","memo":"Applebees","balance":35.81,"posted_at":"2013-05-27T00:00:00+00:00","created_at":"2013-06-20T23:47:53+00:00","nickname":"Applebees","original_name":"Applebees","check_number":null,"tags":[{"tag":{"name":"Diningout","balance":35.81}}]}},{"transaction":{"id":"65570bba-d712-4e30-a5a2-78596606337a","reference_id":null,"transaction_type":"Debit","memo":"Sonic","balance":6.72,"posted_at":"2013-05-25T00:00:00+00:00","created_at":"2013-06-20T23:47:53+00:00","nickname":"Sonic","original_name":"Sonic","check_number":null,"tags":[{"tag":{"name":"Diningout","balance":6.72}}]}},{"transaction":{"id":"aaf54da1-98a6-46bf-838e-499d67a91111","reference_id":null,"transaction_type":"Debit","memo":"Bath
+        & Body Works","balance":14.86,"posted_at":"2013-05-24T00:00:00+00:00","created_at":"2013-06-20T23:47:54+00:00","nickname":"Bath
+        & Body Works","original_name":"Bath & Body Works","check_number":null,"tags":[{"tag":{"name":"Personal","balance":14.86}}]}}]}'
+    http_version: 
+  recorded_at: Mon, 08 Jul 2013 21:59:13 GMT
+- request:
+    method: get
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372082/transactions?page=3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 08 Jul 2013 21:59:13 GMT
+      Status:
+      - 200 OK
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - '"b3d69fd4fcf35c5ab2c555545fc95e60"'
+      Cache-Control:
+      - must-revalidate, private, max-age=0, no-cache, no-store
+      X-Runtime:
+      - '0.096244'
+      X-Rack-Cache:
+      - miss
+      Vary:
+      - Accept-Encoding,User-Agent
+      P3p:
+      - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
+      X-Request-Start:
+      - t=1373320753711830
+      X-Trace:
+      - 1B4C9E384956B0DC8EA2D66BD55DE8A1FC0572C66BC5D8096B1CFDA0CC
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pages":{"total_pages":6,"current_page":3},"transactions":[{"transaction":{"id":"b0a8d397-f7ff-4638-bdf7-02a3b535811c","reference_id":null,"transaction_type":"Debit","memo":"Guitar
+        Center","balance":17.57,"posted_at":"2013-05-23T00:00:00+00:00","created_at":"2013-06-20T23:47:55+00:00","nickname":"Guitar
+        Center","original_name":"Guitar Center","check_number":null,"tags":[{"tag":{"name":"Personal","balance":17.57}}]}},{"transaction":{"id":"5fd72c0e-7d4c-459f-a8ef-9684e3946d44","reference_id":null,"transaction_type":"Debit","memo":"Brookstone","balance":52.88,"posted_at":"2013-05-21T00:00:00+00:00","created_at":"2013-06-20T23:47:56+00:00","nickname":"Brookstone","original_name":"Brookstone","check_number":null,"tags":[{"tag":{"name":"Entertainment","balance":52.88}}]}},{"transaction":{"id":"58150912-6819-4306-84f6-bb60eaeffb08","reference_id":null,"transaction_type":"Debit","memo":"Honda
+        Credit","balance":260.48,"posted_at":"2013-05-20T00:00:00+00:00","created_at":"2013-06-20T23:47:56+00:00","nickname":"Honda
+        Credit","original_name":"Honda Credit","check_number":null,"tags":[{"tag":{"name":"Transportation","balance":260.48}}]}},{"transaction":{"id":"64782b03-d83a-44d6-97d5-1ec5ec119b38","reference_id":null,"transaction_type":"Debit","memo":"Blockbuster","balance":3.89,"posted_at":"2013-05-19T00:00:00+00:00","created_at":"2013-06-20T23:47:57+00:00","nickname":"Blockbuster","original_name":"Blockbuster","check_number":null,"tags":[{"tag":{"name":"Entertainment","balance":3.89}}]}},{"transaction":{"id":"36fc1fc7-2ca5-456e-befd-2ebcaa62f216","reference_id":null,"transaction_type":"Debit","memo":"Starbucks","balance":3.28,"posted_at":"2013-05-16T00:00:00+00:00","created_at":"2013-06-20T23:47:58+00:00","nickname":"Starbucks","original_name":"Starbucks","check_number":null,"tags":[{"tag":{"name":"Coffee","balance":3.28}}]}},{"transaction":{"id":"c7f9ce6e-d75f-4d2b-9b92-ed20658b8be0","reference_id":null,"transaction_type":"Debit","memo":"K-Mart","balance":6.78,"posted_at":"2013-05-14T00:00:00+00:00","created_at":"2013-06-20T23:47:59+00:00","nickname":"K-Mart","original_name":"K-Mart","check_number":null,"tags":[{"tag":{"name":"Personal","balance":6.78}}]}},{"transaction":{"id":"a2dc28e8-87c6-4d81-83ef-2d1a119aa8c7","reference_id":null,"transaction_type":"Debit","memo":"Starbucks","balance":3.28,"posted_at":"2013-05-13T00:00:00+00:00","created_at":"2013-06-20T23:48:00+00:00","nickname":"Starbucks","original_name":"Starbucks","check_number":null,"tags":[{"tag":{"name":"Coffee","balance":3.28}}]}},{"transaction":{"id":"2c6ef3d9-7ad0-45de-84ae-ec0df52205ee","reference_id":null,"transaction_type":"Debit","memo":"Mobil","balance":48.52,"posted_at":"2013-05-10T00:00:00+00:00","created_at":"2013-06-20T23:48:00+00:00","nickname":"Mobil","original_name":"Mobil","check_number":null,"tags":[{"tag":{"name":"Transportation","balance":48.52}}]}}]}'
+    http_version: 
+  recorded_at: Mon, 08 Jul 2013 21:59:14 GMT
+- request:
+    method: get
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372082/transactions?page=4
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 08 Jul 2013 21:59:14 GMT
+      Status:
+      - 200 OK
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - '"f4b8ec79a44fe18b6d572c504996222e"'
+      Cache-Control:
+      - must-revalidate, private, max-age=0, no-cache, no-store
+      X-Runtime:
+      - '0.090750'
+      X-Rack-Cache:
+      - miss
+      Vary:
+      - Accept-Encoding,User-Agent
+      P3p:
+      - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
+      X-Request-Start:
+      - t=1373320754311683
+      X-Trace:
+      - 1B3643F94983A15E3CBE530B33C9D6DCFE4BDBF91A428C10FF0C0C478B
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pages":{"total_pages":6,"current_page":4},"transactions":[{"transaction":{"id":"cbf850b0-f84b-4d6c-aebc-c371a396f15b","reference_id":null,"transaction_type":"Debit","memo":"Netflix.com","balance":14.83,"posted_at":"2013-05-03T00:00:00+00:00","created_at":"2013-06-20T23:48:01+00:00","nickname":"Netflix.com","original_name":"Netflix.com","check_number":null,"tags":[{"tag":{"name":"Entertainment","balance":14.83}}]}},{"transaction":{"id":"28bd059f-9a82-48bc-a0c1-f26f432ffdda","reference_id":null,"transaction_type":"Debit","memo":"Barnes
+        & Nobile","balance":23.54,"posted_at":"2013-05-02T00:00:00+00:00","created_at":"2013-06-20T23:48:02+00:00","nickname":"Barnes
+        & Nobile","original_name":"Barnes & Nobile","check_number":null,"tags":[{"tag":{"name":"Personal","balance":23.54}}]}},{"transaction":{"id":"f1d575d1-a49b-498a-b2f7-8e489885d7af","reference_id":null,"transaction_type":"Debit","memo":"Price
+        Chopper","balance":47.18,"posted_at":"2013-04-30T00:00:00+00:00","created_at":"2013-06-20T23:48:03+00:00","nickname":"Price
+        Chopper","original_name":"Price Chopper","check_number":null,"tags":[{"tag":{"name":"Groceries","balance":47.18}}]}},{"transaction":{"id":"272c5840-e47d-4d7a-ac6d-9e612fb6e009","reference_id":null,"transaction_type":"Debit","memo":"Sears","balance":63.58,"posted_at":"2013-04-29T00:00:00+00:00","created_at":"2013-06-20T23:48:04+00:00","nickname":"Sears","original_name":"Sears","check_number":null,"tags":[{"tag":{"name":"Personal","balance":63.58}}]}},{"transaction":{"id":"27e6f991-d615-4365-80ba-06c02667851f","reference_id":null,"transaction_type":"Credit","memo":"Company
+        Payroll","balance":2809.85,"posted_at":"2013-04-26T00:00:00+00:00","created_at":"2013-06-20T23:48:05+00:00","nickname":"Company
+        Payroll","original_name":"Company Payroll","check_number":null,"tags":[{"tag":{"name":"Income","balance":2809.85}}]}}]}'
+    http_version: 
+  recorded_at: Mon, 08 Jul 2013 21:59:15 GMT
+- request:
+    method: get
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372082/transactions?page=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 08 Jul 2013 21:59:15 GMT
+      Status:
+      - 200 OK
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - '"5cae32fc45ba5984974f469cd78a3358"'
+      Cache-Control:
+      - must-revalidate, private, max-age=0, no-cache, no-store
+      X-Runtime:
+      - '0.087035'
+      X-Rack-Cache:
+      - miss
+      Vary:
+      - Accept-Encoding,User-Agent
+      P3p:
+      - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
+      X-Request-Start:
+      - t=1373320754925623
+      X-Trace:
+      - 1B8DEFF7FD67448938177CE6F5B944AF87E57DF7B7E798B7A57F4DD45C
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pages":{"total_pages":6,"current_page":5},"transactions":[{"transaction":{"id":"9cc3a7f4-49af-4abc-803a-5296a9dc3b82","reference_id":null,"transaction_type":"Debit","memo":"eBags.com","balance":58.27,"posted_at":"2013-04-25T00:00:00+00:00","created_at":"2013-06-20T23:48:05+00:00","nickname":"eBags.com","original_name":"eBags.com","check_number":null,"tags":[{"tag":{"name":"Clothing","balance":58.27}}]}},{"transaction":{"id":"8b547ffd-4cbb-42e0-aace-d2139792451e","reference_id":null,"transaction_type":"Debit","memo":"T-Mobile","balance":61.46,"posted_at":"2013-04-21T00:00:00+00:00","created_at":"2013-06-20T23:48:06+00:00","nickname":"T-Mobile","original_name":"T-Mobile","check_number":null,"tags":[{"tag":{"name":"Utilities","balance":61.46}}]}},{"transaction":{"id":"0230ce18-07a9-4924-813a-98b91ecc834d","reference_id":null,"transaction_type":"Debit","memo":"TGI
+        Fridays","balance":47.62,"posted_at":"2013-04-18T00:00:00+00:00","created_at":"2013-06-20T23:48:07+00:00","nickname":"TGI
+        Fridays","original_name":"TGI Fridays","check_number":null,"tags":[{"tag":{"name":"Diningout","balance":47.62}}]}},{"transaction":{"id":"a453b96e-28c2-4ed8-8f16-9bbbe043175e","reference_id":null,"transaction_type":"Debit","memo":"Toyota
+        Credit","balance":345.48,"posted_at":"2013-04-16T00:00:00+00:00","created_at":"2013-06-20T23:48:08+00:00","nickname":"Toyota
+        Credit","original_name":"Toyota Credit","check_number":null,"tags":[{"tag":{"name":"Transportation","balance":345.48}}]}},{"transaction":{"id":"6354f430-ddc2-4eb1-aee4-ac5e12b02ed9","reference_id":null,"transaction_type":"Debit","memo":"Victorias
+        Secret","balance":37.15,"posted_at":"2013-04-15T00:00:00+00:00","created_at":"2013-06-20T23:48:09+00:00","nickname":"Victorias
+        Secret","original_name":"Victorias Secret","check_number":null,"tags":[{"tag":{"name":"Personal","balance":37.15}}]}},{"transaction":{"id":"eb918f57-34f6-4f7d-82d6-796a0248a569","reference_id":null,"transaction_type":"Debit","memo":"Walgreens","balance":5.75,"posted_at":"2013-04-12T00:00:00+00:00","created_at":"2013-06-20T23:48:09+00:00","nickname":"Walgreens","original_name":"Walgreens","check_number":null,"tags":[{"tag":{"name":"Health","balance":5.75}}]}}]}'
+    http_version: 
+  recorded_at: Mon, 08 Jul 2013 21:59:15 GMT
+- request:
+    method: get
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372082/transactions?page=6
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 08 Jul 2013 21:59:15 GMT
+      Status:
+      - 200 OK
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - '"44541b71d37b5156f119b052c4cdbfe7"'
+      Cache-Control:
+      - must-revalidate, private, max-age=0, no-cache, no-store
+      X-Runtime:
+      - '0.083339'
+      X-Rack-Cache:
+      - miss
+      Vary:
+      - Accept-Encoding,User-Agent
+      P3p:
+      - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
+      X-Request-Start:
+      - t=1373320755518071
+      X-Trace:
+      - 1B7BFF57946D9CBEBE1B71999AA33DDF4A6293071939917A1A3806217A
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pages":{"total_pages":6,"current_page":6},"transactions":[{"transaction":{"id":"9358c01c-037d-4972-90ad-2c9908d1e4bc","reference_id":null,"transaction_type":"Debit","memo":"Subway","balance":5.3,"posted_at":"2013-04-09T00:00:00+00:00","created_at":"2013-06-20T23:48:10+00:00","nickname":"Subway","original_name":"Subway","check_number":null,"tags":[{"tag":{"name":"Diningout","balance":5.3}}]}},{"transaction":{"id":"5ee3f9b7-1c55-423d-95f4-4ea96f748e61","reference_id":null,"transaction_type":"Credit","memo":"Company
+        Payroll","balance":2809.85,"posted_at":"2013-04-06T00:00:00+00:00","created_at":"2013-06-20T23:48:11+00:00","nickname":"Company
+        Payroll","original_name":"Company Payroll","check_number":null,"tags":[{"tag":{"name":"Income","balance":2809.85}}]}}]}'
+    http_version: 
+  recorded_at: Mon, 08 Jul 2013 21:59:16 GMT
+- request:
+    method: get
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372083/transactions?page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 08 Jul 2013 21:59:16 GMT
+      Status:
+      - 200 OK
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - '"008a234eca291da043879821ffa8bd5e"'
+      Cache-Control:
+      - must-revalidate, private, max-age=0, no-cache, no-store
+      X-Runtime:
+      - '0.087062'
+      X-Rack-Cache:
+      - miss
+      Vary:
+      - Accept-Encoding,User-Agent
+      P3p:
+      - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
+      X-Request-Start:
+      - t=1373320756092309
+      X-Trace:
+      - 1B58DBF03745D427911E1022C9C30B4C43C6559434B06E44541142394C
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pages":{"total_pages":6,"current_page":1},"transactions":[{"transaction":{"id":"cc5bd09c-e5e2-4f73-90de-20b35f201264","reference_id":null,"transaction_type":"Debit","memo":"AT&T","balance":83.9,"posted_at":"2013-06-20T00:00:00+00:00","created_at":"2013-06-20T23:47:45+00:00","nickname":"AT&T","original_name":"AT&T","check_number":null,"tags":[{"tag":{"name":"Utilities","balance":83.9}}]}},{"transaction":{"id":"3e91d6fe-ac5d-4735-a455-4a607ad1b4cb","reference_id":null,"transaction_type":"Debit","memo":"Check
+        #124","balance":120.0,"posted_at":"2013-06-19T00:00:00+00:00","created_at":"2013-06-20T23:47:46+00:00","nickname":"Check
+        #124","original_name":"Check #124","check_number":null,"tags":[{"tag":{"name":"Entertainment","balance":120.0}}]}},{"transaction":{"id":"72a37ce9-f46a-4109-9456-cd6b94537d7a","reference_id":null,"transaction_type":"Debit","memo":"Borders
+        Books","balance":21.21,"posted_at":"2013-06-18T00:00:00+00:00","created_at":"2013-06-20T23:47:47+00:00","nickname":"Borders
+        Books","original_name":"Borders Books","check_number":null,"tags":[{"tag":{"name":"Entertainment","balance":21.21}}]}},{"transaction":{"id":"08d40f5b-e750-4f40-a25c-d7fff7cb5ec6","reference_id":null,"transaction_type":"Debit","memo":"Christmas
+        Tree Shops","balance":64.81,"posted_at":"2013-06-15T00:00:00+00:00","created_at":"2013-06-20T23:47:48+00:00","nickname":"Christmas
+        Tree Shops","original_name":"Christmas Tree Shops","check_number":null,"tags":[{"tag":{"name":"Household","balance":64.81}}]}},{"transaction":{"id":"f8f15c88-daeb-4803-93e7-57d5cfa2928b","reference_id":null,"transaction_type":"Debit","memo":"CVS","balance":1.74,"posted_at":"2013-06-12T00:00:00+00:00","created_at":"2013-06-20T23:47:48+00:00","nickname":"CVS","original_name":"CVS","check_number":null,"tags":[{"tag":{"name":"Health","balance":1.74}}]}},{"transaction":{"id":"5c227014-7410-49a7-aa58-0c43964e1cbb","reference_id":null,"transaction_type":"Debit","memo":"Mortgage
+        Payment","balance":1148.82,"posted_at":"2013-06-08T00:00:00+00:00","created_at":"2013-06-20T23:47:49+00:00","nickname":"Mortgage
+        Payment","original_name":"Mortgage Payment","check_number":null,"tags":[{"tag":{"name":"Utilities","balance":1148.82}}]}}]}'
+    http_version: 
+  recorded_at: Mon, 08 Jul 2013 21:59:16 GMT
+- request:
+    method: get
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372083/transactions?page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 08 Jul 2013 21:59:16 GMT
+      Status:
+      - 200 OK
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - '"008a234eca291da043879821ffa8bd5e"'
+      Cache-Control:
+      - must-revalidate, private, max-age=0, no-cache, no-store
+      X-Runtime:
+      - '0.237701'
+      X-Rack-Cache:
+      - miss
+      Vary:
+      - Accept-Encoding,User-Agent
+      P3p:
+      - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
+      X-Request-Start:
+      - t=1373320756666235
+      X-Trace:
+      - 1B9CA524B7914E55A73314677ECFBCB01CD3271039907FA5CFE86739CE
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pages":{"total_pages":6,"current_page":1},"transactions":[{"transaction":{"id":"cc5bd09c-e5e2-4f73-90de-20b35f201264","reference_id":null,"transaction_type":"Debit","memo":"AT&T","balance":83.9,"posted_at":"2013-06-20T00:00:00+00:00","created_at":"2013-06-20T23:47:45+00:00","nickname":"AT&T","original_name":"AT&T","check_number":null,"tags":[{"tag":{"name":"Utilities","balance":83.9}}]}},{"transaction":{"id":"3e91d6fe-ac5d-4735-a455-4a607ad1b4cb","reference_id":null,"transaction_type":"Debit","memo":"Check
+        #124","balance":120.0,"posted_at":"2013-06-19T00:00:00+00:00","created_at":"2013-06-20T23:47:46+00:00","nickname":"Check
+        #124","original_name":"Check #124","check_number":null,"tags":[{"tag":{"name":"Entertainment","balance":120.0}}]}},{"transaction":{"id":"72a37ce9-f46a-4109-9456-cd6b94537d7a","reference_id":null,"transaction_type":"Debit","memo":"Borders
+        Books","balance":21.21,"posted_at":"2013-06-18T00:00:00+00:00","created_at":"2013-06-20T23:47:47+00:00","nickname":"Borders
+        Books","original_name":"Borders Books","check_number":null,"tags":[{"tag":{"name":"Entertainment","balance":21.21}}]}},{"transaction":{"id":"08d40f5b-e750-4f40-a25c-d7fff7cb5ec6","reference_id":null,"transaction_type":"Debit","memo":"Christmas
+        Tree Shops","balance":64.81,"posted_at":"2013-06-15T00:00:00+00:00","created_at":"2013-06-20T23:47:48+00:00","nickname":"Christmas
+        Tree Shops","original_name":"Christmas Tree Shops","check_number":null,"tags":[{"tag":{"name":"Household","balance":64.81}}]}},{"transaction":{"id":"f8f15c88-daeb-4803-93e7-57d5cfa2928b","reference_id":null,"transaction_type":"Debit","memo":"CVS","balance":1.74,"posted_at":"2013-06-12T00:00:00+00:00","created_at":"2013-06-20T23:47:48+00:00","nickname":"CVS","original_name":"CVS","check_number":null,"tags":[{"tag":{"name":"Health","balance":1.74}}]}},{"transaction":{"id":"5c227014-7410-49a7-aa58-0c43964e1cbb","reference_id":null,"transaction_type":"Debit","memo":"Mortgage
+        Payment","balance":1148.82,"posted_at":"2013-06-08T00:00:00+00:00","created_at":"2013-06-20T23:47:49+00:00","nickname":"Mortgage
+        Payment","original_name":"Mortgage Payment","check_number":null,"tags":[{"tag":{"name":"Utilities","balance":1148.82}}]}}]}'
+    http_version: 
+  recorded_at: Mon, 08 Jul 2013 21:59:17 GMT
+- request:
+    method: get
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372083/transactions?page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 08 Jul 2013 21:59:17 GMT
+      Status:
+      - 200 OK
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - '"21a5fe847df40f588270099b28270c95"'
+      Cache-Control:
+      - must-revalidate, private, max-age=0, no-cache, no-store
+      X-Runtime:
+      - '0.093262'
+      X-Rack-Cache:
+      - miss
+      Vary:
+      - Accept-Encoding,User-Agent
+      P3p:
+      - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
+      X-Request-Start:
+      - t=1373320757403548
+      X-Trace:
+      - 1B63EC6CD75B6202CBAB90810EBAA6FE94A07402DD4A44802F30EBEAA5
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pages":{"total_pages":6,"current_page":2},"transactions":[{"transaction":{"id":"aa698f26-2a6b-42ee-a43b-dde51977b323","reference_id":null,"transaction_type":"Debit","memo":"Stop
+        & Shop","balance":38.48,"posted_at":"2013-06-05T00:00:00+00:00","created_at":"2013-06-20T23:47:50+00:00","nickname":"Stop
+        & Shop","original_name":"Stop & Shop","check_number":null,"tags":[{"tag":{"name":"Groceries","balance":38.48}}]}},{"transaction":{"id":"f837331c-b526-4a7e-8dfd-53ff36959c31","reference_id":null,"transaction_type":"Debit","memo":"eBay.com","balance":20.69,"posted_at":"2013-06-01T00:00:00+00:00","created_at":"2013-06-20T23:47:51+00:00","nickname":"eBay.com","original_name":"eBay.com","check_number":null,"tags":[{"tag":{"name":"Personal","balance":20.69}}]}},{"transaction":{"id":"6399b0e8-2b00-4d8f-9037-627ea432d199","reference_id":null,"transaction_type":"Credit","memo":"Company
+        Payroll","balance":2809.85,"posted_at":"2013-05-29T00:00:00+00:00","created_at":"2013-06-20T23:47:51+00:00","nickname":"Company
+        Payroll","original_name":"Company Payroll","check_number":null,"tags":[{"tag":{"name":"Income","balance":2809.85}}]}},{"transaction":{"id":"bc3a3648-44bf-4c18-a898-133859852557","reference_id":null,"transaction_type":"Debit","memo":"FedEx","balance":13.48,"posted_at":"2013-05-27T00:00:00+00:00","created_at":"2013-06-20T23:47:52+00:00","nickname":"FedEx","original_name":"FedEx","check_number":null,"tags":[{"tag":{"name":"Personal","balance":13.48}}]}},{"transaction":{"id":"9403472c-5cdc-42c1-9de4-5ebf393c1aa4","reference_id":null,"transaction_type":"Debit","memo":"Finance
+        Charge","balance":31.87,"posted_at":"2013-05-25T00:00:00+00:00","created_at":"2013-06-20T23:47:53+00:00","nickname":"Finance
+        Charge","original_name":"Finance Charge","check_number":null,"tags":[{"tag":{"name":"Fees","balance":31.87}}]}},{"transaction":{"id":"9cb8638d-776c-4c0c-81db-a26400be7ad1","reference_id":null,"transaction_type":"Debit","memo":"Ford
+        Credit","balance":234.29,"posted_at":"2013-05-25T00:00:00+00:00","created_at":"2013-06-20T23:47:54+00:00","nickname":"Ford
+        Credit","original_name":"Ford Credit","check_number":null,"tags":[{"tag":{"name":"Transportation","balance":234.29}}]}},{"transaction":{"id":"c8b95169-40cf-4d9e-ade6-65f908e2b512","reference_id":null,"transaction_type":"Debit","memo":"Friendlys","balance":46.95,"posted_at":"2013-05-24T00:00:00+00:00","created_at":"2013-06-20T23:47:54+00:00","nickname":"Friendlys","original_name":"Friendlys","check_number":null,"tags":[{"tag":{"name":"Diningout","balance":46.95}}]}}]}'
+    http_version: 
+  recorded_at: Mon, 08 Jul 2013 21:59:18 GMT
+- request:
+    method: get
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372083/transactions?page=3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 08 Jul 2013 21:59:18 GMT
+      Status:
+      - 200 OK
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - '"7fd032e7734171b52ce61be1dbff80c9"'
+      Cache-Control:
+      - must-revalidate, private, max-age=0, no-cache, no-store
+      X-Runtime:
+      - '0.089467'
+      X-Rack-Cache:
+      - miss
+      Vary:
+      - Accept-Encoding,User-Agent
+      P3p:
+      - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
+      X-Request-Start:
+      - t=1373320758010015
+      X-Trace:
+      - 1B5DE354AF3764C1A16F3DD1CA0B98248BCB61DB57C8AE5545ACFB7EC1
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pages":{"total_pages":6,"current_page":3},"transactions":[{"transaction":{"id":"398ede4c-3e4b-4398-acc0-980642db81b2","reference_id":null,"transaction_type":"Debit","memo":"Hollister","balance":62.9,"posted_at":"2013-05-21T00:00:00+00:00","created_at":"2013-06-20T23:47:55+00:00","nickname":"Hollister","original_name":"Hollister","check_number":null,"tags":[{"tag":{"name":"Clothing","balance":62.9}}]}},{"transaction":{"id":"79cbcc79-54d0-42e3-b430-b1f615af0bc5","reference_id":null,"transaction_type":"Debit","memo":"Wendys","balance":4.22,"posted_at":"2013-05-20T00:00:00+00:00","created_at":"2013-06-20T23:47:56+00:00","nickname":"Wendys","original_name":"Wendys","check_number":null,"tags":[{"tag":{"name":"Diningout","balance":4.22}}]}},{"transaction":{"id":"6ef4aa85-d3c7-4ffa-b36a-9fb3cf971d11","reference_id":null,"transaction_type":"Debit","memo":"IHOP","balance":25.48,"posted_at":"2013-05-19T00:00:00+00:00","created_at":"2013-06-20T23:47:57+00:00","nickname":"IHOP","original_name":"IHOP","check_number":null,"tags":[{"tag":{"name":"Diningout","balance":25.48}}]}},{"transaction":{"id":"88f4e7e0-e29b-4133-9433-ca505c46154d","reference_id":null,"transaction_type":"Debit","memo":"iTunes","balance":1.0,"posted_at":"2013-05-18T00:00:00+00:00","created_at":"2013-06-20T23:47:57+00:00","nickname":"iTunes","original_name":"iTunes","check_number":null,"tags":[{"tag":{"name":"Entertainment","balance":1.0}}]}},{"transaction":{"id":"6da44fc1-8604-4a02-92db-b317a5e92602","reference_id":null,"transaction_type":"Credit","memo":"Company
+        Payroll","balance":2809.85,"posted_at":"2013-05-16T00:00:00+00:00","created_at":"2013-06-20T23:47:58+00:00","nickname":"Company
+        Payroll","original_name":"Company Payroll","check_number":null,"tags":[{"tag":{"name":"Income","balance":2809.85}}]}},{"transaction":{"id":"91620e78-f986-4b9b-a014-2586c85474a3","reference_id":null,"transaction_type":"Debit","memo":"KFC","balance":8.48,"posted_at":"2013-05-14T00:00:00+00:00","created_at":"2013-06-20T23:47:59+00:00","nickname":"KFC","original_name":"KFC","check_number":null,"tags":[{"tag":{"name":"Diningout","balance":8.48}}]}},{"transaction":{"id":"072fece7-cae9-4e86-8e88-a03f95c1714c","reference_id":null,"transaction_type":"Debit","memo":"Macys","balance":64.15,"posted_at":"2013-05-11T00:00:00+00:00","created_at":"2013-06-20T23:48:00+00:00","nickname":"Macys","original_name":"Macys","check_number":null,"tags":[{"tag":{"name":"Personal","balance":64.15}}]}}]}'
+    http_version: 
+  recorded_at: Mon, 08 Jul 2013 21:59:18 GMT
+- request:
+    method: get
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372083/transactions?page=4
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 08 Jul 2013 21:59:18 GMT
+      Status:
+      - 200 OK
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - '"33e0a2bb084881f5e51d448f4ccf34fe"'
+      Cache-Control:
+      - must-revalidate, private, max-age=0, no-cache, no-store
+      X-Runtime:
+      - '0.085562'
+      X-Rack-Cache:
+      - miss
+      Vary:
+      - Accept-Encoding,User-Agent
+      P3p:
+      - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
+      X-Request-Start:
+      - t=1373320758604820
+      X-Trace:
+      - 1B441355F88336A9ED9338E5533BA2E76DADEEB6D608FBE01FF72D0548
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pages":{"total_pages":6,"current_page":4},"transactions":[{"transaction":{"id":"38b9efa2-6f21-4afc-81b7-595edfc0a383","reference_id":null,"transaction_type":"Debit","memo":"Cheesecake
+        Factory","balance":52.14,"posted_at":"2013-05-06T00:00:00+00:00","created_at":"2013-06-20T23:48:01+00:00","nickname":"Cheesecake
+        Factory","original_name":"Cheesecake Factory","check_number":null,"tags":[{"tag":{"name":"Diningout","balance":52.14}}]}},{"transaction":{"id":"0ee28ee2-36dc-4810-994c-78bf8c240a29","reference_id":null,"transaction_type":"Debit","memo":"Dell","balance":378.0,"posted_at":"2013-05-03T00:00:00+00:00","created_at":"2013-06-20T23:48:01+00:00","nickname":"Dell","original_name":"Dell","check_number":null,"tags":[{"tag":{"name":"Personal","balance":378.0}}]}},{"transaction":{"id":"f3c480ec-2ab6-4e0f-a1a3-253fdf63e164","reference_id":null,"transaction_type":"Debit","memo":"Starbucks","balance":4.62,"posted_at":"2013-05-02T00:00:00+00:00","created_at":"2013-06-20T23:48:02+00:00","nickname":"Starbucks","original_name":"Starbucks","check_number":null,"tags":[{"tag":{"name":"Coffee","balance":4.62}}]}},{"transaction":{"id":"00458dd9-9798-413f-87c6-f73bc69e78d8","reference_id":null,"transaction_type":"Debit","memo":"Sams
+        Club","balance":76.25,"posted_at":"2013-04-30T00:00:00+00:00","created_at":"2013-06-20T23:48:03+00:00","nickname":"Sams
+        Club","original_name":"Sams Club","check_number":null,"tags":[{"tag":{"name":"Groceries","balance":76.25}}]}},{"transaction":{"id":"abc34077-4f94-4aa1-976d-f1a89d7dfb61","reference_id":null,"transaction_type":"Debit","memo":"Best
+        Buy","balance":37.17,"posted_at":"2013-04-28T00:00:00+00:00","created_at":"2013-06-20T23:48:04+00:00","nickname":"Best
+        Buy","original_name":"Best Buy","check_number":null,"tags":[{"tag":{"name":"Personal","balance":37.17}}]}}]}'
+    http_version: 
+  recorded_at: Mon, 08 Jul 2013 21:59:19 GMT
+- request:
+    method: get
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372083/transactions?page=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 08 Jul 2013 21:59:19 GMT
+      Status:
+      - 200 OK
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - '"c0469f78d3cafe134abc1b5181a0a261"'
+      Cache-Control:
+      - must-revalidate, private, max-age=0, no-cache, no-store
+      X-Runtime:
+      - '0.089852'
+      X-Rack-Cache:
+      - miss
+      Vary:
+      - Accept-Encoding,User-Agent
+      P3p:
+      - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
+      X-Request-Start:
+      - t=1373320759193946
+      X-Trace:
+      - 1B9BC1E81649D7AFA7ACE25DA5A1A05BF9DB53DF1DF672BE300778A41E
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pages":{"total_pages":6,"current_page":5},"transactions":[{"transaction":{"id":"a7dd301b-4380-48e2-a1df-666cf1d8ad9e","reference_id":null,"transaction_type":"Debit","memo":"American
+        Eagle","balance":43.47,"posted_at":"2013-04-25T00:00:00+00:00","created_at":"2013-06-20T23:48:05+00:00","nickname":"American
+        Eagle","original_name":"American Eagle","check_number":null,"tags":[{"tag":{"name":"Clothing","balance":43.47}}]}},{"transaction":{"id":"cc135ef4-3b71-4b2a-93fd-f2e6b38f78d0","reference_id":null,"transaction_type":"Debit","memo":"Subway","balance":5.3,"posted_at":"2013-04-24T00:00:00+00:00","created_at":"2013-06-20T23:48:05+00:00","nickname":"Subway","original_name":"Subway","check_number":null,"tags":[{"tag":{"name":"Diningout","balance":5.3}}]}},{"transaction":{"id":"aba2bc3e-c811-4781-b2c6-f86dc2a6e4f0","reference_id":null,"transaction_type":"Debit","memo":"Taco
+        Bell","balance":7.35,"posted_at":"2013-04-21T00:00:00+00:00","created_at":"2013-06-20T23:48:06+00:00","nickname":"Taco
+        Bell","original_name":"Taco Bell","check_number":null,"tags":[{"tag":{"name":"Diningout","balance":7.35}}]}},{"transaction":{"id":"06516d5c-258f-4e45-a991-73f3ac5c277c","reference_id":null,"transaction_type":"Credit","memo":"Company
+        Payroll","balance":2809.85,"posted_at":"2013-04-17T00:00:00+00:00","created_at":"2013-06-20T23:48:07+00:00","nickname":"Company
+        Payroll","original_name":"Company Payroll","check_number":null,"tags":[{"tag":{"name":"Income","balance":2809.85}}]}},{"transaction":{"id":"86c149f9-e110-410a-8e66-1c0d9ce94ec6","reference_id":null,"transaction_type":"Debit","memo":"USPS","balance":8.42,"posted_at":"2013-04-15T00:00:00+00:00","created_at":"2013-06-20T23:48:08+00:00","nickname":"USPS","original_name":"USPS","check_number":null,"tags":[{"tag":{"name":"Personal","balance":8.42}}]}},{"transaction":{"id":"7a0c933f-658d-4670-8879-6f49b16efe38","reference_id":null,"transaction_type":"Debit","memo":"Wal-Mart","balance":67.45,"posted_at":"2013-04-12T00:00:00+00:00","created_at":"2013-06-20T23:48:09+00:00","nickname":"Wal-Mart","original_name":"Wal-Mart","check_number":null,"tags":[{"tag":{"name":"Personal","balance":67.45}}]}}]}'
+    http_version: 
+  recorded_at: Mon, 08 Jul 2013 21:59:20 GMT
+- request:
+    method: get
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372083/transactions?page=6
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 08 Jul 2013 21:59:19 GMT
+      Status:
+      - 200 OK
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - '"54ddb439b38e9b53c0b0cd0eacd15023"'
+      Cache-Control:
+      - must-revalidate, private, max-age=0, no-cache, no-store
+      X-Runtime:
+      - '0.082643'
+      X-Rack-Cache:
+      - miss
+      Vary:
+      - Accept-Encoding,User-Agent
+      P3p:
+      - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
+      X-Request-Start:
+      - t=1373320759765013
+      X-Trace:
+      - 1B21BEB52822AB5D9F597BFA685106EAE1FBF732B38B9716DFD9D6F0BC
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pages":{"total_pages":6,"current_page":6},"transactions":[{"transaction":{"id":"72b67a4d-de83-471e-aa6e-988e78f91a59","reference_id":null,"transaction_type":"Debit","memo":"Whole
+        Foods","balance":85.48,"posted_at":"2013-04-10T00:00:00+00:00","created_at":"2013-06-20T23:48:10+00:00","nickname":"Whole
+        Foods","original_name":"Whole Foods","check_number":null,"tags":[{"tag":{"name":"Groceries","balance":85.48}}]}},{"transaction":{"id":"adb2550e-4a4b-432e-97c5-c2977e4dc245","reference_id":null,"transaction_type":"Debit","memo":"Dunkin
+        Donuts","balance":3.89,"posted_at":"2013-04-07T00:00:00+00:00","created_at":"2013-06-20T23:48:10+00:00","nickname":"Dunkin
+        Donuts","original_name":"Dunkin Donuts","check_number":null,"tags":[{"tag":{"name":"Coffee","balance":3.89}}]}},{"transaction":{"id":"54ff9a17-a71e-4f24-b9ee-ee5c8d4d520f","reference_id":null,"transaction_type":"Debit","memo":"Taco
+        Bell","balance":5.69,"posted_at":"2013-04-06T00:00:00+00:00","created_at":"2013-06-20T23:48:11+00:00","nickname":"Taco
+        Bell","original_name":"Taco Bell","check_number":null,"tags":[{"tag":{"name":"Diningout","balance":5.69}}]}}]}'
+    http_version: 
+  recorded_at: Mon, 08 Jul 2013 21:59:20 GMT
+- request:
+    method: get
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372084/transactions?page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 08 Jul 2013 21:59:20 GMT
+      Status:
+      - 200 OK
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - '"7bd452523bb1e408bf32af24beee597d"'
+      Cache-Control:
+      - must-revalidate, private, max-age=0, no-cache, no-store
+      X-Runtime:
+      - '0.090938'
+      X-Rack-Cache:
+      - miss
+      Vary:
+      - Accept-Encoding,User-Agent
+      P3p:
+      - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
+      X-Request-Start:
+      - t=1373320760335832
+      X-Trace:
+      - 1B75694B1724EEA9215B63BC64F352BDD05CF8CA70F663D24C504C595E
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pages":{"total_pages":6,"current_page":1},"transactions":[{"transaction":{"id":"63c5d1a0-1c02-433d-aabd-266e44ae6945","reference_id":null,"transaction_type":"Debit","memo":"Bed
+        Bath & Beyond","balance":6.2,"posted_at":"2013-06-20T00:00:00+00:00","created_at":"2013-06-20T23:47:46+00:00","nickname":"Bed
+        Bath & Beyond","original_name":"Bed Bath & Beyond","check_number":null,"tags":[{"tag":{"name":"Household","balance":6.2}}]}},{"transaction":{"id":"3b7b0042-c40d-4067-8b95-2ce3c9dab8b7","reference_id":null,"transaction_type":"Debit","memo":"Check
+        #123","balance":25.0,"posted_at":"2013-06-19T00:00:00+00:00","created_at":"2013-06-20T23:47:46+00:00","nickname":"Check
+        #123","original_name":"Check #123","check_number":null,"tags":[{"tag":{"name":"Transportation","balance":25.0}}]}},{"transaction":{"id":"ff6575b6-5dd3-4a7c-ab4d-d3b195662f22","reference_id":null,"transaction_type":"Debit","memo":"Buy.com","balance":48.63,"posted_at":"2013-06-15T00:00:00+00:00","created_at":"2013-06-20T23:47:47+00:00","nickname":"Buy.com","original_name":"Buy.com","check_number":null,"tags":[{"tag":{"name":"Personal","balance":48.63}}]}},{"transaction":{"id":"84880a72-5bf1-4bad-93be-82b806815dea","reference_id":null,"transaction_type":"Debit","memo":"Apple
+        Store","balance":258.34,"posted_at":"2013-06-12T00:00:00+00:00","created_at":"2013-06-20T23:47:48+00:00","nickname":"Apple
+        Store","original_name":"Apple Store","check_number":null,"tags":[{"tag":{"name":"Personal","balance":258.34}}]}},{"transaction":{"id":"45beba04-c1cb-421b-912f-7776bccb0c43","reference_id":null,"transaction_type":"Debit","memo":"McDonalds","balance":4.22,"posted_at":"2013-06-10T00:00:00+00:00","created_at":"2013-06-20T23:47:49+00:00","nickname":"McDonalds","original_name":"McDonalds","check_number":null,"tags":[{"tag":{"name":"Diningout","balance":4.22}}]}}]}'
+    http_version: 
+  recorded_at: Mon, 08 Jul 2013 21:59:21 GMT
+- request:
+    method: get
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372084/transactions?page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 08 Jul 2013 21:59:21 GMT
+      Status:
+      - 200 OK
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - '"7bd452523bb1e408bf32af24beee597d"'
+      Cache-Control:
+      - must-revalidate, private, max-age=0, no-cache, no-store
+      X-Runtime:
+      - '0.083530'
+      X-Rack-Cache:
+      - miss
+      Vary:
+      - Accept-Encoding,User-Agent
+      P3p:
+      - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
+      X-Request-Start:
+      - t=1373320760926490
+      X-Trace:
+      - 1BC91E23CB4211AB687D053B2B4F513B6E409B572452BE2130A7B16A2B
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pages":{"total_pages":6,"current_page":1},"transactions":[{"transaction":{"id":"63c5d1a0-1c02-433d-aabd-266e44ae6945","reference_id":null,"transaction_type":"Debit","memo":"Bed
+        Bath & Beyond","balance":6.2,"posted_at":"2013-06-20T00:00:00+00:00","created_at":"2013-06-20T23:47:46+00:00","nickname":"Bed
+        Bath & Beyond","original_name":"Bed Bath & Beyond","check_number":null,"tags":[{"tag":{"name":"Household","balance":6.2}}]}},{"transaction":{"id":"3b7b0042-c40d-4067-8b95-2ce3c9dab8b7","reference_id":null,"transaction_type":"Debit","memo":"Check
+        #123","balance":25.0,"posted_at":"2013-06-19T00:00:00+00:00","created_at":"2013-06-20T23:47:46+00:00","nickname":"Check
+        #123","original_name":"Check #123","check_number":null,"tags":[{"tag":{"name":"Transportation","balance":25.0}}]}},{"transaction":{"id":"ff6575b6-5dd3-4a7c-ab4d-d3b195662f22","reference_id":null,"transaction_type":"Debit","memo":"Buy.com","balance":48.63,"posted_at":"2013-06-15T00:00:00+00:00","created_at":"2013-06-20T23:47:47+00:00","nickname":"Buy.com","original_name":"Buy.com","check_number":null,"tags":[{"tag":{"name":"Personal","balance":48.63}}]}},{"transaction":{"id":"84880a72-5bf1-4bad-93be-82b806815dea","reference_id":null,"transaction_type":"Debit","memo":"Apple
+        Store","balance":258.34,"posted_at":"2013-06-12T00:00:00+00:00","created_at":"2013-06-20T23:47:48+00:00","nickname":"Apple
+        Store","original_name":"Apple Store","check_number":null,"tags":[{"tag":{"name":"Personal","balance":258.34}}]}},{"transaction":{"id":"45beba04-c1cb-421b-912f-7776bccb0c43","reference_id":null,"transaction_type":"Debit","memo":"McDonalds","balance":4.22,"posted_at":"2013-06-10T00:00:00+00:00","created_at":"2013-06-20T23:47:49+00:00","nickname":"McDonalds","original_name":"McDonalds","check_number":null,"tags":[{"tag":{"name":"Diningout","balance":4.22}}]}}]}'
+    http_version: 
+  recorded_at: Mon, 08 Jul 2013 21:59:21 GMT
+- request:
+    method: get
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372084/transactions?page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 08 Jul 2013 21:59:21 GMT
+      Status:
+      - 200 OK
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - '"62c8bade089849f54a8f05f03eb6c764"'
+      Cache-Control:
+      - must-revalidate, private, max-age=0, no-cache, no-store
+      X-Runtime:
+      - '0.244711'
+      X-Rack-Cache:
+      - miss
+      Vary:
+      - Accept-Encoding,User-Agent
+      P3p:
+      - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
+      X-Request-Start:
+      - t=1373320761648601
+      X-Trace:
+      - 1B539167B609137F6587FB2F64BAEECC7384742E426D90EA4A44F45CE0
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pages":{"total_pages":6,"current_page":2},"transactions":[{"transaction":{"id":"8049ae84-31e1-401c-9b29-850f4f7a5d8e","reference_id":null,"transaction_type":"Debit","memo":"Big
+        Y World Class Market","balance":14.64,"posted_at":"2013-06-05T00:00:00+00:00","created_at":"2013-06-20T23:47:49+00:00","nickname":"Big
+        Y World Class Market","original_name":"Big Y World Class Market","check_number":null,"tags":[{"tag":{"name":"Groceries","balance":14.64}}]}},{"transaction":{"id":"1b11b094-d5d6-46cd-ad7a-d8a6bd1212e0","reference_id":null,"transaction_type":"Debit","memo":"Dominos
+        Pizza","balance":12.01,"posted_at":"2013-06-04T00:00:00+00:00","created_at":"2013-06-20T23:47:50+00:00","nickname":"Dominos
+        Pizza","original_name":"Dominos Pizza","check_number":null,"tags":[{"tag":{"name":"Diningout","balance":12.01}}]}},{"transaction":{"id":"5bb3963c-764e-43ae-88cc-26187dc94030","reference_id":null,"transaction_type":"Debit","memo":"Burger
+        King","balance":5.69,"posted_at":"2013-06-01T00:00:00+00:00","created_at":"2013-06-20T23:47:51+00:00","nickname":"Burger
+        King","original_name":"Burger King","check_number":null,"tags":[{"tag":{"name":"Diningout","balance":5.69}}]}},{"transaction":{"id":"f4a9a8d5-2370-4d07-9d27-43e6f12040a5","reference_id":null,"transaction_type":"Debit","memo":"Fandango","balance":22.89,"posted_at":"2013-05-29T00:00:00+00:00","created_at":"2013-06-20T23:47:52+00:00","nickname":"Fandango","original_name":"Fandango","check_number":null,"tags":[{"tag":{"name":"Entertainment","balance":22.89}}]}},{"transaction":{"id":"979c07ce-33fe-43ff-a452-2a1111de006a","reference_id":null,"transaction_type":"Debit","memo":"Filenes","balance":48.58,"posted_at":"2013-05-27T00:00:00+00:00","created_at":"2013-06-20T23:47:52+00:00","nickname":"Filenes","original_name":"Filenes","check_number":null,"tags":[{"tag":{"name":"Personal","balance":48.58}}]}},{"transaction":{"id":"4e414168-8e5c-4c76-b51d-58d3d9572a2d","reference_id":null,"transaction_type":"Debit","memo":"BJs
+        Wholesale","balance":69.36,"posted_at":"2013-05-25T00:00:00+00:00","created_at":"2013-06-20T23:47:53+00:00","nickname":"BJs
+        Wholesale","original_name":"BJs Wholesale","check_number":null,"tags":[{"tag":{"name":"Groceries","balance":69.36}}]}},{"transaction":{"id":"a4e018e5-9a75-477a-8634-b33508bca6d7","reference_id":null,"transaction_type":"Debit","memo":"MovieTickets.com","balance":31.5,"posted_at":"2013-05-24T00:00:00+00:00","created_at":"2013-06-20T23:47:54+00:00","nickname":"MovieTickets.com","original_name":"MovieTickets.com","check_number":null,"tags":[{"tag":{"name":"Entertainment","balance":31.5}}]}}]}'
+    http_version: 
+  recorded_at: Mon, 08 Jul 2013 21:59:22 GMT
+- request:
+    method: get
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372084/transactions?page=3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 08 Jul 2013 21:59:22 GMT
+      Status:
+      - 200 OK
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - '"231759b27271d67b3e526641824ff889"'
+      Cache-Control:
+      - must-revalidate, private, max-age=0, no-cache, no-store
+      X-Runtime:
+      - '0.090161'
+      X-Rack-Cache:
+      - miss
+      Vary:
+      - Accept-Encoding,User-Agent
+      P3p:
+      - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
+      X-Request-Start:
+      - t=1373320762422759
+      X-Trace:
+      - 1BAC2387C0D0CAF67EC5F7C311E87F76C7612150A260293BB0D1D6E440
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pages":{"total_pages":6,"current_page":3},"transactions":[{"transaction":{"id":"b179aeae-7831-4bd2-a526-9275c44157ba","reference_id":null,"transaction_type":"Debit","memo":"Advanced
+        Auto Parts","balance":20.58,"posted_at":"2013-05-23T00:00:00+00:00","created_at":"2013-06-20T23:47:55+00:00","nickname":"Advanced
+        Auto Parts","original_name":"Advanced Auto Parts","check_number":null,"tags":[{"tag":{"name":"Transportation","balance":20.58}}]}},{"transaction":{"id":"9409832e-a32c-4941-bf73-4337f307f585","reference_id":null,"transaction_type":"Debit","memo":"Subway","balance":5.3,"posted_at":"2013-05-21T00:00:00+00:00","created_at":"2013-06-20T23:47:55+00:00","nickname":"Subway","original_name":"Subway","check_number":null,"tags":[{"tag":{"name":"Diningout","balance":5.3}}]}},{"transaction":{"id":"0ed1ae70-c429-49eb-9684-584bf678434b","reference_id":null,"transaction_type":"Debit","memo":"Amazon.com","balance":67.89,"posted_at":"2013-05-20T00:00:00+00:00","created_at":"2013-06-20T23:47:56+00:00","nickname":"Amazon.com","original_name":"Amazon.com","check_number":null,"tags":[{"tag":{"name":"Personal","balance":67.89}}]}},{"transaction":{"id":"e613676e-bdc8-4e5d-a003-ad5c8534c3d9","reference_id":null,"transaction_type":"Debit","memo":"In-N-Out","balance":4.88,"posted_at":"2013-05-19T00:00:00+00:00","created_at":"2013-06-20T23:47:57+00:00","nickname":"In-N-Out","original_name":"In-N-Out","check_number":null,"tags":[{"tag":{"name":"Diningout","balance":4.88}}]}},{"transaction":{"id":"12f30734-c2c1-4a88-a63c-858ee04c4cba","reference_id":null,"transaction_type":"Debit","memo":"AutoZone","balance":48.45,"posted_at":"2013-05-16T00:00:00+00:00","created_at":"2013-06-20T23:47:58+00:00","nickname":"AutoZone","original_name":"AutoZone","check_number":null,"tags":[{"tag":{"name":"Transportation","balance":48.45}}]}},{"transaction":{"id":"e868600c-7502-49e4-aeeb-5c365b2704d0","reference_id":null,"transaction_type":"Debit","memo":"JCPenney","balance":22.88,"posted_at":"2013-05-15T00:00:00+00:00","created_at":"2013-06-20T23:47:58+00:00","nickname":"JCPenney","original_name":"JCPenney","check_number":null,"tags":[{"tag":{"name":"Personal","balance":22.88}}]}},{"transaction":{"id":"b9e0547f-5075-4a56-9029-204f6c1007d0","reference_id":null,"transaction_type":"Debit","memo":"Volkswagen
+        Credit","balance":298.88,"posted_at":"2013-05-14T00:00:00+00:00","created_at":"2013-06-20T23:47:59+00:00","nickname":"Volkswagen
+        Credit","original_name":"Volkswagen Credit","check_number":null,"tags":[{"tag":{"name":"Transportation","balance":298.88}}]}},{"transaction":{"id":"267401c5-2973-49a1-845b-9355e901e7d2","reference_id":null,"transaction_type":"Debit","memo":"UPS","balance":9.58,"posted_at":"2013-05-10T00:00:00+00:00","created_at":"2013-06-20T23:48:00+00:00","nickname":"UPS","original_name":"UPS","check_number":null,"tags":[{"tag":{"name":"Personal","balance":9.58}}]}}]}'
+    http_version: 
+  recorded_at: Mon, 08 Jul 2013 21:59:23 GMT
+- request:
+    method: get
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372084/transactions?page=4
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 08 Jul 2013 21:59:23 GMT
+      Status:
+      - 200 OK
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - '"969040f28b087264c0c2cc565e89c7e2"'
+      Cache-Control:
+      - must-revalidate, private, max-age=0, no-cache, no-store
+      X-Runtime:
+      - '0.085678'
+      X-Rack-Cache:
+      - miss
+      Vary:
+      - Accept-Encoding,User-Agent
+      P3p:
+      - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
+      X-Request-Start:
+      - t=1373320762997627
+      X-Trace:
+      - 1B9247A53C139F34D81343B1EA152C74C6DFF76D3F4432F0CA6A214E37
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pages":{"total_pages":6,"current_page":4},"transactions":[{"transaction":{"id":"7036a3de-1f92-48de-9c34-71ac4b6a6950","reference_id":null,"transaction_type":"Debit","memo":"Aeropostale","balance":25.35,"posted_at":"2013-05-06T00:00:00+00:00","created_at":"2013-06-20T23:48:01+00:00","nickname":"Aeropostale","original_name":"Aeropostale","check_number":null,"tags":[{"tag":{"name":"Clothing","balance":25.35}}]}},{"transaction":{"id":"28f071ad-e412-42fd-ac23-07839131f964","reference_id":null,"transaction_type":"Debit","memo":"Pizza
+        Hut","balance":14.78,"posted_at":"2013-05-03T00:00:00+00:00","created_at":"2013-06-20T23:48:02+00:00","nickname":"Pizza
+        Hut","original_name":"Pizza Hut","check_number":null,"tags":[{"tag":{"name":"Diningout","balance":14.78}}]}},{"transaction":{"id":"d00fa398-9856-4e84-b730-52343da6bdbb","reference_id":null,"transaction_type":"Debit","memo":"Popeyes","balance":8.24,"posted_at":"2013-05-01T00:00:00+00:00","created_at":"2013-06-20T23:48:03+00:00","nickname":"Popeyes","original_name":"Popeyes","check_number":null,"tags":[{"tag":{"name":"Diningout","balance":8.24}}]}},{"transaction":{"id":"25cbd289-66ba-45c2-a74f-50ad17dea467","reference_id":null,"transaction_type":"Debit","memo":"CompUSA","balance":35.14,"posted_at":"2013-04-29T00:00:00+00:00","created_at":"2013-06-20T23:48:03+00:00","nickname":"CompUSA","original_name":"CompUSA","check_number":null,"tags":[{"tag":{"name":"Personal","balance":35.14}}]}},{"transaction":{"id":"3c400bed-19b7-4502-aaee-ab5ed9a6810a","reference_id":null,"transaction_type":"Debit","memo":"Shell","balance":42.63,"posted_at":"2013-04-27T00:00:00+00:00","created_at":"2013-06-20T23:48:04+00:00","nickname":"Shell","original_name":"Shell","check_number":null,"tags":[{"tag":{"name":"Transportation","balance":42.63}}]}}]}'
+    http_version: 
+  recorded_at: Mon, 08 Jul 2013 21:59:23 GMT
+- request:
+    method: get
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372084/transactions?page=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 08 Jul 2013 21:59:23 GMT
+      Status:
+      - 200 OK
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - '"156d9411bcd3a5571634f41f5f662284"'
+      Cache-Control:
+      - must-revalidate, private, max-age=0, no-cache, no-store
+      X-Runtime:
+      - '0.091486'
+      X-Rack-Cache:
+      - miss
+      Vary:
+      - Accept-Encoding,User-Agent
+      P3p:
+      - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
+      X-Request-Start:
+      - t=1373320763576904
+      X-Trace:
+      - 1BD69C92B34F8FEC82F8230990CCAB58B245D250934B765D2B69C6EAB9
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pages":{"total_pages":6,"current_page":5},"transactions":[{"transaction":{"id":"fbf559f3-9178-41b7-abd5-528506f07c98","reference_id":null,"transaction_type":"Debit","memo":"Showcase
+        Cinemas","balance":44.0,"posted_at":"2013-04-25T00:00:00+00:00","created_at":"2013-06-20T23:48:05+00:00","nickname":"Showcase
+        Cinemas","original_name":"Showcase Cinemas","check_number":null,"tags":[{"tag":{"name":"Entertainment","balance":44.0}}]}},{"transaction":{"id":"5d8b0430-b621-4165-82b4-955f30cfedf9","reference_id":null,"transaction_type":"Debit","memo":"Sunoco","balance":38.72,"posted_at":"2013-04-22T00:00:00+00:00","created_at":"2013-06-20T23:48:06+00:00","nickname":"Sunoco","original_name":"Sunoco","check_number":null,"tags":[{"tag":{"name":"Transportation","balance":38.72}}]}},{"transaction":{"id":"96da3a62-451c-4c64-8df6-2e8b02a5f7e1","reference_id":null,"transaction_type":"Debit","memo":"Target","balance":34.56,"posted_at":"2013-04-19T00:00:00+00:00","created_at":"2013-06-20T23:48:07+00:00","nickname":"Target","original_name":"Target","check_number":null,"tags":[{"tag":{"name":"Personal","balance":34.56}}]}},{"transaction":{"id":"75add03d-7131-4ef4-ad82-803628e2a0a7","reference_id":null,"transaction_type":"Debit","memo":"7-Eleven","balance":3.69,"posted_at":"2013-04-17T00:00:00+00:00","created_at":"2013-06-20T23:48:07+00:00","nickname":"7-Eleven","original_name":"7-Eleven","check_number":null,"tags":[{"tag":{"name":"Personal","balance":3.69}}]}},{"transaction":{"id":"d44a5b53-c714-46b6-b70a-3a2aa9e341c8","reference_id":null,"transaction_type":"Debit","memo":"Vernon
+        Diner","balance":19.63,"posted_at":"2013-04-15T00:00:00+00:00","created_at":"2013-06-20T23:48:08+00:00","nickname":"Vernon
+        Diner","original_name":"Vernon Diner","check_number":null,"tags":[{"tag":{"name":"Diningout","balance":19.63}}]}},{"transaction":{"id":"0d147abe-514f-4355-854c-6973d15e88f4","reference_id":null,"transaction_type":"Debit","memo":"CineMark","balance":15.75,"posted_at":"2013-04-12T00:00:00+00:00","created_at":"2013-06-20T23:48:09+00:00","nickname":"CineMark","original_name":"CineMark","check_number":null,"tags":[{"tag":{"name":"Entertainment","balance":15.75}}]}}]}'
+    http_version: 
+  recorded_at: Mon, 08 Jul 2013 21:59:24 GMT
+- request:
+    method: get
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372084/transactions?page=6
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 08 Jul 2013 21:59:24 GMT
+      Status:
+      - 200 OK
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - '"d6f65a7cf204a57c05c4489a111167bb"'
+      Cache-Control:
+      - must-revalidate, private, max-age=0, no-cache, no-store
+      X-Runtime:
+      - '0.083006'
+      X-Rack-Cache:
+      - miss
+      Vary:
+      - Accept-Encoding,User-Agent
+      P3p:
+      - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
+      X-Request-Start:
+      - t=1373320764163213
+      X-Trace:
+      - 1B3147019E44C938B8B04CEEBEF8995CA4EDDB16E69C4C59E7EAE9353A
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pages":{"total_pages":6,"current_page":6},"transactions":[{"transaction":{"id":"bfa54de7-4d8b-4b62-b4b1-18d07ae08776","reference_id":null,"transaction_type":"Debit","memo":"Zappos.com","balance":81.62,"posted_at":"2013-04-09T00:00:00+00:00","created_at":"2013-06-20T23:48:10+00:00","nickname":"Zappos.com","original_name":"Zappos.com","check_number":null,"tags":[{"tag":{"name":"Personal","balance":81.62}}]}},{"transaction":{"id":"daa6ad1b-48ba-45ce-8e92-97d6f819a430","reference_id":null,"transaction_type":"Debit","memo":"Burger
+        King","balance":16.48,"posted_at":"2013-04-07T00:00:00+00:00","created_at":"2013-06-20T23:48:11+00:00","nickname":"Burger
+        King","original_name":"Burger King","check_number":null,"tags":[{"tag":{"name":"Diningout","balance":16.48}}]}},{"transaction":{"id":"05d22e32-7453-449a-ba94-02d07eae66fd","reference_id":null,"transaction_type":"Debit","memo":"Citgo","balance":36.64,"posted_at":"2013-04-05T00:00:00+00:00","created_at":"2013-06-20T23:48:11+00:00","nickname":"Citgo","original_name":"Citgo","check_number":null,"tags":[{"tag":{"name":"Transportation","balance":36.64}}]}}]}'
+    http_version: 
+  recorded_at: Mon, 08 Jul 2013 21:59:25 GMT
+recorded_with: VCR 2.5.0
