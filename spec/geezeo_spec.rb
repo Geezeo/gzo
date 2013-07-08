@@ -2,7 +2,9 @@ require "spec_helper"
 
 describe "Geezeo accounts", :vcr do
   before(:each) do
-    @geezeo = Geezeo.client(credentials["api_key"], credentials["user_id"])
+    @geezeo = Geezeo.client(
+      Geezeo.configuration.api_key, Geezeo.configuration.user_id
+    )
   end
 
   it "gets a list of all accounts" do
@@ -53,7 +55,9 @@ end
 
 describe "Geezeo transactions", :vcr do
   before(:each) do
-    @geezeo = Geezeo.client(credentials["api_key"], credentials["user_id"])
+    @geezeo = Geezeo.client(
+      Geezeo.configuration.api_key, Geezeo.configuration.user_id
+    )
   end
 
   it "gets a list of all transactions" do
@@ -78,7 +82,9 @@ end
 
 describe "Geezeo user", :vcr do
   before(:each) do
-    @geezeo = Geezeo.client(credentials["api_key"], credentials["user_id"])
+    @geezeo = Geezeo.client(
+      Geezeo.configuration.api_key, Geezeo.configuration.user_id
+    )
   end
 
   it "returns user data" do

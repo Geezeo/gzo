@@ -23,6 +23,29 @@ Or install it yourself as:
 
 ## Contributing
 
+### Credentials
+The tests will run without credentials using the included VCR cassettes.
+
+If you wish to record new cassettes please set VCR_RECORD.
+
+	bundle exec rspec VCR_RECORD=true
+
+For this to work you must have a file ~/.geezeo/credentials.rb with valid
+Geezeo API credentials.
+
+	```ruby
+	Geezeo.configure do |config|
+      config.api_key = "abc123"
+      config.user_id = "testy"
+    end
+    ```
+
+If you wish to contribute your cassettes back to the project please anonymize
+them by replacing all occurrences of your api_key and user_id with "abc123"
+and "testy" respectively. This will be necessary in order for further test
+runs to pass without setting VCR_RECORD.
+
+
 1. Fork it
 2. Create your feature branch (`git checkout -b feature/my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)

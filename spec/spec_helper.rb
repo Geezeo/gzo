@@ -8,12 +8,21 @@ require "geezeo"
 
 require "pry"
 
-Dir["#{File.dirname(__FILE__)}/support/**/*.rb"].each do |file|
-  require File.expand_path(file)
+if ENV["VCR_RECORD"]
+  if File.exist?("~/.geezeo/credentials.rb")
+    require "~/.geezeo/credentials"
+  else
+    raise "To record on the VCR you must have a credentials file (see README)"
+  end
+
+else
+  Geezeo.configure do |config|
+    config.api_key = "abc123"
+    config.user_id = "testy"
+  end
 end
 
 RSpec.configure do |config|
-  config.include CredentialsHelper
 
   # Run specs in random order to surface order dependencies. If you find an
   # order dependency and want to debug it, you can fix the order by providing
