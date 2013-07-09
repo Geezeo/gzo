@@ -23,11 +23,24 @@ module Geezeo
     # Create a client
     #
     # == Examples
-    #   Geezeo.client('api_key', 'user_id')
+    #   Geezeo.client("api_key", "user_id")
     #
     # @return [Geezeo::Client]
     def client(api_key, user_id)
       Geezeo::Client.new(api_key, user_id)
+    end
+
+    # Create a client with local credentials
+    #
+    # == Examples
+    #   Geezeo.c
+    #
+    # @return [Geezeo::Client]
+    def c
+      require "geezeo/local_credentials"
+      Geezeo::Client.new(
+        Geezeo.configuration.api_key, Geezeo.configuration.user_id
+      )
     end
   end
 end
