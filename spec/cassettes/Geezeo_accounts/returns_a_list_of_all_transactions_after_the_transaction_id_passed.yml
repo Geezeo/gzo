@@ -13,7 +13,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 08 Jul 2013 21:59:35 GMT
+      - Tue, 09 Jul 2013 02:29:13 GMT
       Status:
       - 200 OK
       Content-Type:
@@ -25,7 +25,7 @@ http_interactions:
       Cache-Control:
       - must-revalidate, private, max-age=0, no-cache, no-store
       X-Runtime:
-      - '0.059780'
+      - '0.060807'
       X-Rack-Cache:
       - miss
       Vary:
@@ -33,9 +33,9 @@ http_interactions:
       P3p:
       - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
       X-Request-Start:
-      - t=1373320775354751
+      - t=1373336953876102
       X-Trace:
-      - 1B8D9FAC65F83C0B7DAFCA694892947F656A6EBF6A8736F32ED7863BCD
+      - 1BD20DF6FF460BA2496B491E59712038B1BD84EFD7AE06A45AF19269DC
       Transfer-Encoding:
       - chunked
     body:
@@ -44,7 +44,7 @@ http_interactions:
         Savings","balance":"1000.0","reference_id":"278914032","aggregation_type":"partner","state":"active","harvest_updated_at":null,"account_type":null,"fi":null},{"id":4372084,"name":"Preferred
         Plus Card","balance":"769.88","reference_id":"10984092","aggregation_type":"partner","state":"active","harvest_updated_at":null,"account_type":null,"fi":null}]}'
     http_version: 
-  recorded_at: Mon, 08 Jul 2013 21:59:36 GMT
+  recorded_at: Tue, 09 Jul 2013 02:29:14 GMT
 - request:
     method: get
     uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372082/transactions?page=1
@@ -58,7 +58,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 08 Jul 2013 21:59:35 GMT
+      - Tue, 09 Jul 2013 02:29:14 GMT
       Status:
       - 200 OK
       Content-Type:
@@ -70,7 +70,7 @@ http_interactions:
       Cache-Control:
       - must-revalidate, private, max-age=0, no-cache, no-store
       X-Runtime:
-      - '0.091148'
+      - '0.119063'
       X-Rack-Cache:
       - miss
       Vary:
@@ -78,9 +78,9 @@ http_interactions:
       P3p:
       - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
       X-Request-Start:
-      - t=1373320775896162
+      - t=1373336954474901
       X-Trace:
-      - 1B5B6B9C102C6236D4A7290CB619817B6699946FF2F20367AE6B0A60CD
+      - 1B00C2BF636F31FF17165176EDC9EA400C1102AAB47AD0C3FC3E0BFFE6
       Transfer-Encoding:
       - chunked
     body:
@@ -97,7 +97,7 @@ http_interactions:
         Sporting Goods","balance":45.63,"posted_at":"2013-06-10T00:00:00+00:00","created_at":"2013-06-20T23:47:49+00:00","nickname":"Dicks
         Sporting Goods","original_name":"Dicks Sporting Goods","check_number":null,"tags":[{"tag":{"name":"Personal","balance":45.63}}]}}]}'
     http_version: 
-  recorded_at: Mon, 08 Jul 2013 21:59:36 GMT
+  recorded_at: Tue, 09 Jul 2013 02:29:15 GMT
 - request:
     method: get
     uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372082/transactions?page=1
@@ -111,7 +111,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 08 Jul 2013 21:59:36 GMT
+      - Tue, 09 Jul 2013 02:29:15 GMT
       Status:
       - 200 OK
       Content-Type:
@@ -123,7 +123,7 @@ http_interactions:
       Cache-Control:
       - must-revalidate, private, max-age=0, no-cache, no-store
       X-Runtime:
-      - '0.092960'
+      - '0.112979'
       X-Rack-Cache:
       - miss
       Vary:
@@ -131,9 +131,9 @@ http_interactions:
       P3p:
       - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
       X-Request-Start:
-      - t=1373320776500587
+      - t=1373336955145975
       X-Trace:
-      - 1B23769AD52A1610CB649C69A5D09663B23BD80262137BA477F53F46C4
+      - 1BEC80B2929436601892DD37A947B532935AC2328A89BCF2C580D81B85
       Transfer-Encoding:
       - chunked
     body:
@@ -150,7 +150,7 @@ http_interactions:
         Sporting Goods","balance":45.63,"posted_at":"2013-06-10T00:00:00+00:00","created_at":"2013-06-20T23:47:49+00:00","nickname":"Dicks
         Sporting Goods","original_name":"Dicks Sporting Goods","check_number":null,"tags":[{"tag":{"name":"Personal","balance":45.63}}]}}]}'
     http_version: 
-  recorded_at: Mon, 08 Jul 2013 21:59:37 GMT
+  recorded_at: Tue, 09 Jul 2013 02:29:16 GMT
 - request:
     method: get
     uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372082/transactions?page=1
@@ -164,7 +164,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 08 Jul 2013 21:59:37 GMT
+      - Tue, 09 Jul 2013 02:29:15 GMT
       Status:
       - 200 OK
       Content-Type:
@@ -176,7 +176,7 @@ http_interactions:
       Cache-Control:
       - must-revalidate, private, max-age=0, no-cache, no-store
       X-Runtime:
-      - '0.094918'
+      - '0.090220'
       X-Rack-Cache:
       - miss
       Vary:
@@ -184,9 +184,9 @@ http_interactions:
       P3p:
       - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
       X-Request-Start:
-      - t=1373320777087077
+      - t=1373336955804347
       X-Trace:
-      - 1BE1489CA4DCE4A798E3FEC0B3D6D93DCAE04FAC83768ECB1C284CED30
+      - 1B8A97ADAD46C4A8C1B7665438C5E8793AEBA587DC5F3ED61A0F7050AB
       Transfer-Encoding:
       - chunked
     body:
@@ -203,7 +203,7 @@ http_interactions:
         Sporting Goods","balance":45.63,"posted_at":"2013-06-10T00:00:00+00:00","created_at":"2013-06-20T23:47:49+00:00","nickname":"Dicks
         Sporting Goods","original_name":"Dicks Sporting Goods","check_number":null,"tags":[{"tag":{"name":"Personal","balance":45.63}}]}}]}'
     http_version: 
-  recorded_at: Mon, 08 Jul 2013 21:59:37 GMT
+  recorded_at: Tue, 09 Jul 2013 02:29:16 GMT
 - request:
     method: get
     uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372082/transactions?page=1
@@ -217,7 +217,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 08 Jul 2013 21:59:37 GMT
+      - Tue, 09 Jul 2013 02:29:16 GMT
       Status:
       - 200 OK
       Content-Type:
@@ -229,7 +229,7 @@ http_interactions:
       Cache-Control:
       - must-revalidate, private, max-age=0, no-cache, no-store
       X-Runtime:
-      - '0.096021'
+      - '0.247478'
       X-Rack-Cache:
       - miss
       Vary:
@@ -237,9 +237,9 @@ http_interactions:
       P3p:
       - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
       X-Request-Start:
-      - t=1373320777676342
+      - t=1373336956450789
       X-Trace:
-      - 1BCA12380D301E94EC2DD780A09BF4ABC177B3EFCF9D22FF4251724EEE
+      - 1BEDC6F94E8B645484A61954F191BBD3567C397D1F5065D61B9A49B5A0
       Transfer-Encoding:
       - chunked
     body:
@@ -256,5 +256,5 @@ http_interactions:
         Sporting Goods","balance":45.63,"posted_at":"2013-06-10T00:00:00+00:00","created_at":"2013-06-20T23:47:49+00:00","nickname":"Dicks
         Sporting Goods","original_name":"Dicks Sporting Goods","check_number":null,"tags":[{"tag":{"name":"Personal","balance":45.63}}]}}]}'
     http_version: 
-  recorded_at: Mon, 08 Jul 2013 21:59:38 GMT
+  recorded_at: Tue, 09 Jul 2013 02:29:18 GMT
 recorded_with: VCR 2.5.0

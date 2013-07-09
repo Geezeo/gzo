@@ -13,7 +13,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 08 Jul 2013 21:59:10 GMT
+      - Tue, 09 Jul 2013 02:29:24 GMT
       Status:
       - 200 OK
       Content-Type:
@@ -25,7 +25,7 @@ http_interactions:
       Cache-Control:
       - must-revalidate, private, max-age=0, no-cache, no-store
       X-Runtime:
-      - '0.279591'
+      - '0.079767'
       X-Rack-Cache:
       - miss
       Vary:
@@ -33,9 +33,9 @@ http_interactions:
       P3p:
       - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
       X-Request-Start:
-      - t=1373320750350753
+      - t=1373336964652772
       X-Trace:
-      - 1B59CB63A9CD89A6665B1AEFBDF94D9A5954C80372D49366F6404C17AB
+      - 1BD585BBAFACDA300EEC13255281E7CC3D2B3AC30FF9AC0457548839E9
       Transfer-Encoding:
       - chunked
     body:
@@ -44,7 +44,7 @@ http_interactions:
         Savings","balance":"1000.0","reference_id":"278914032","aggregation_type":"partner","state":"active","harvest_updated_at":null,"account_type":null,"fi":null},{"id":4372084,"name":"Preferred
         Plus Card","balance":"769.88","reference_id":"10984092","aggregation_type":"partner","state":"active","harvest_updated_at":null,"account_type":null,"fi":null}]}'
     http_version: 
-  recorded_at: Mon, 08 Jul 2013 21:59:11 GMT
+  recorded_at: Tue, 09 Jul 2013 02:29:25 GMT
 - request:
     method: get
     uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372082/transactions?page=1
@@ -58,7 +58,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 08 Jul 2013 21:59:11 GMT
+      - Tue, 09 Jul 2013 02:29:25 GMT
       Status:
       - 200 OK
       Content-Type:
@@ -70,7 +70,7 @@ http_interactions:
       Cache-Control:
       - must-revalidate, private, max-age=0, no-cache, no-store
       X-Runtime:
-      - '0.086099'
+      - '0.092367'
       X-Rack-Cache:
       - miss
       Vary:
@@ -78,9 +78,9 @@ http_interactions:
       P3p:
       - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
       X-Request-Start:
-      - t=1373320751118983
+      - t=1373336965279484
       X-Trace:
-      - 1BFDDD7E31AD28AF9670176F3BF794F4A9C8FD4061F43CAAFD9E6DAB9B
+      - 1BD093EA0C300378AD2FE1C2691417336738AE00181652FF740990FC7A
       Transfer-Encoding:
       - chunked
     body:
@@ -97,7 +97,7 @@ http_interactions:
         Sporting Goods","balance":45.63,"posted_at":"2013-06-10T00:00:00+00:00","created_at":"2013-06-20T23:47:49+00:00","nickname":"Dicks
         Sporting Goods","original_name":"Dicks Sporting Goods","check_number":null,"tags":[{"tag":{"name":"Personal","balance":45.63}}]}}]}'
     http_version: 
-  recorded_at: Mon, 08 Jul 2013 21:59:11 GMT
+  recorded_at: Tue, 09 Jul 2013 02:29:26 GMT
 - request:
     method: get
     uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372082/transactions?page=1
@@ -111,7 +111,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 08 Jul 2013 21:59:11 GMT
+      - Tue, 09 Jul 2013 02:29:26 GMT
       Status:
       - 200 OK
       Content-Type:
@@ -123,7 +123,7 @@ http_interactions:
       Cache-Control:
       - must-revalidate, private, max-age=0, no-cache, no-store
       X-Runtime:
-      - '0.090192'
+      - '0.092763'
       X-Rack-Cache:
       - miss
       Vary:
@@ -131,9 +131,9 @@ http_interactions:
       P3p:
       - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
       X-Request-Start:
-      - t=1373320751703412
+      - t=1373336965918688
       X-Trace:
-      - 1BE801ABA9DE3F83706BF37C81DD37EDF0174DD42A2102C3F1026F660D
+      - 1B1D52E54C1F3AB8FA5481E44CA3901290B5145FA1264A6778F1F91F30
       Transfer-Encoding:
       - chunked
     body:
@@ -150,7 +150,7 @@ http_interactions:
         Sporting Goods","balance":45.63,"posted_at":"2013-06-10T00:00:00+00:00","created_at":"2013-06-20T23:47:49+00:00","nickname":"Dicks
         Sporting Goods","original_name":"Dicks Sporting Goods","check_number":null,"tags":[{"tag":{"name":"Personal","balance":45.63}}]}}]}'
     http_version: 
-  recorded_at: Mon, 08 Jul 2013 21:59:12 GMT
+  recorded_at: Tue, 09 Jul 2013 02:29:27 GMT
 - request:
     method: get
     uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372082/transactions?page=2
@@ -164,7 +164,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 08 Jul 2013 21:59:13 GMT
+      - Tue, 09 Jul 2013 02:29:26 GMT
       Status:
       - 200 OK
       Content-Type:
@@ -176,7 +176,7 @@ http_interactions:
       Cache-Control:
       - must-revalidate, private, max-age=0, no-cache, no-store
       X-Runtime:
-      - '0.091443'
+      - '0.096084'
       X-Rack-Cache:
       - miss
       Vary:
@@ -184,9 +184,9 @@ http_interactions:
       P3p:
       - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
       X-Request-Start:
-      - t=1373320753111934
+      - t=1373336966573157
       X-Trace:
-      - 1B7CA7D2C97935FF839F1FB3CA706C1026F0EF30ACB80D6D38BEE768EC
+      - 1B43E75026EE043DA8E7A27CCEFC31A80F0CEDF7C126BE219991A5C525
       Transfer-Encoding:
       - chunked
     body:
@@ -203,7 +203,7 @@ http_interactions:
         & Body Works","balance":14.86,"posted_at":"2013-05-24T00:00:00+00:00","created_at":"2013-06-20T23:47:54+00:00","nickname":"Bath
         & Body Works","original_name":"Bath & Body Works","check_number":null,"tags":[{"tag":{"name":"Personal","balance":14.86}}]}}]}'
     http_version: 
-  recorded_at: Mon, 08 Jul 2013 21:59:13 GMT
+  recorded_at: Tue, 09 Jul 2013 02:29:27 GMT
 - request:
     method: get
     uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372082/transactions?page=3
@@ -217,7 +217,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 08 Jul 2013 21:59:13 GMT
+      - Tue, 09 Jul 2013 02:29:27 GMT
       Status:
       - 200 OK
       Content-Type:
@@ -229,7 +229,7 @@ http_interactions:
       Cache-Control:
       - must-revalidate, private, max-age=0, no-cache, no-store
       X-Runtime:
-      - '0.096244'
+      - '0.267894'
       X-Rack-Cache:
       - miss
       Vary:
@@ -237,9 +237,9 @@ http_interactions:
       P3p:
       - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
       X-Request-Start:
-      - t=1373320753711830
+      - t=1373336967211430
       X-Trace:
-      - 1B4C9E384956B0DC8EA2D66BD55DE8A1FC0572C66BC5D8096B1CFDA0CC
+      - 1B004180C545E8DF6A041302AA3585E636B66AD8767E3B921D11FED91C
       Transfer-Encoding:
       - chunked
     body:
@@ -250,7 +250,7 @@ http_interactions:
         Credit","balance":260.48,"posted_at":"2013-05-20T00:00:00+00:00","created_at":"2013-06-20T23:47:56+00:00","nickname":"Honda
         Credit","original_name":"Honda Credit","check_number":null,"tags":[{"tag":{"name":"Transportation","balance":260.48}}]}},{"transaction":{"id":"64782b03-d83a-44d6-97d5-1ec5ec119b38","reference_id":null,"transaction_type":"Debit","memo":"Blockbuster","balance":3.89,"posted_at":"2013-05-19T00:00:00+00:00","created_at":"2013-06-20T23:47:57+00:00","nickname":"Blockbuster","original_name":"Blockbuster","check_number":null,"tags":[{"tag":{"name":"Entertainment","balance":3.89}}]}},{"transaction":{"id":"36fc1fc7-2ca5-456e-befd-2ebcaa62f216","reference_id":null,"transaction_type":"Debit","memo":"Starbucks","balance":3.28,"posted_at":"2013-05-16T00:00:00+00:00","created_at":"2013-06-20T23:47:58+00:00","nickname":"Starbucks","original_name":"Starbucks","check_number":null,"tags":[{"tag":{"name":"Coffee","balance":3.28}}]}},{"transaction":{"id":"c7f9ce6e-d75f-4d2b-9b92-ed20658b8be0","reference_id":null,"transaction_type":"Debit","memo":"K-Mart","balance":6.78,"posted_at":"2013-05-14T00:00:00+00:00","created_at":"2013-06-20T23:47:59+00:00","nickname":"K-Mart","original_name":"K-Mart","check_number":null,"tags":[{"tag":{"name":"Personal","balance":6.78}}]}},{"transaction":{"id":"a2dc28e8-87c6-4d81-83ef-2d1a119aa8c7","reference_id":null,"transaction_type":"Debit","memo":"Starbucks","balance":3.28,"posted_at":"2013-05-13T00:00:00+00:00","created_at":"2013-06-20T23:48:00+00:00","nickname":"Starbucks","original_name":"Starbucks","check_number":null,"tags":[{"tag":{"name":"Coffee","balance":3.28}}]}},{"transaction":{"id":"2c6ef3d9-7ad0-45de-84ae-ec0df52205ee","reference_id":null,"transaction_type":"Debit","memo":"Mobil","balance":48.52,"posted_at":"2013-05-10T00:00:00+00:00","created_at":"2013-06-20T23:48:00+00:00","nickname":"Mobil","original_name":"Mobil","check_number":null,"tags":[{"tag":{"name":"Transportation","balance":48.52}}]}}]}'
     http_version: 
-  recorded_at: Mon, 08 Jul 2013 21:59:14 GMT
+  recorded_at: Tue, 09 Jul 2013 02:29:28 GMT
 - request:
     method: get
     uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372082/transactions?page=4
@@ -264,7 +264,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 08 Jul 2013 21:59:14 GMT
+      - Tue, 09 Jul 2013 02:29:28 GMT
       Status:
       - 200 OK
       Content-Type:
@@ -276,7 +276,7 @@ http_interactions:
       Cache-Control:
       - must-revalidate, private, max-age=0, no-cache, no-store
       X-Runtime:
-      - '0.090750'
+      - '0.240379'
       X-Rack-Cache:
       - miss
       Vary:
@@ -284,9 +284,9 @@ http_interactions:
       P3p:
       - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
       X-Request-Start:
-      - t=1373320754311683
+      - t=1373336968305458
       X-Trace:
-      - 1B3643F94983A15E3CBE530B33C9D6DCFE4BDBF91A428C10FF0C0C478B
+      - 1B4337CD55B84E12579EF1C3D44E7BB9B325FECCDC2FB2212065DB0669
       Transfer-Encoding:
       - chunked
     body:
@@ -299,7 +299,7 @@ http_interactions:
         Payroll","balance":2809.85,"posted_at":"2013-04-26T00:00:00+00:00","created_at":"2013-06-20T23:48:05+00:00","nickname":"Company
         Payroll","original_name":"Company Payroll","check_number":null,"tags":[{"tag":{"name":"Income","balance":2809.85}}]}}]}'
     http_version: 
-  recorded_at: Mon, 08 Jul 2013 21:59:15 GMT
+  recorded_at: Tue, 09 Jul 2013 02:29:29 GMT
 - request:
     method: get
     uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372082/transactions?page=5
@@ -313,7 +313,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 08 Jul 2013 21:59:15 GMT
+      - Tue, 09 Jul 2013 02:29:29 GMT
       Status:
       - 200 OK
       Content-Type:
@@ -325,7 +325,7 @@ http_interactions:
       Cache-Control:
       - must-revalidate, private, max-age=0, no-cache, no-store
       X-Runtime:
-      - '0.087035'
+      - '0.252204'
       X-Rack-Cache:
       - miss
       Vary:
@@ -333,9 +333,9 @@ http_interactions:
       P3p:
       - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
       X-Request-Start:
-      - t=1373320754925623
+      - t=1373336969090242
       X-Trace:
-      - 1B8DEFF7FD67448938177CE6F5B944AF87E57DF7B7E798B7A57F4DD45C
+      - 1BAC0F2F196C80AF7A7B37DD9EECA24D24531FFDBC841D316766AAD417
       Transfer-Encoding:
       - chunked
     body:
@@ -348,7 +348,7 @@ http_interactions:
         Secret","balance":37.15,"posted_at":"2013-04-15T00:00:00+00:00","created_at":"2013-06-20T23:48:09+00:00","nickname":"Victorias
         Secret","original_name":"Victorias Secret","check_number":null,"tags":[{"tag":{"name":"Personal","balance":37.15}}]}},{"transaction":{"id":"eb918f57-34f6-4f7d-82d6-796a0248a569","reference_id":null,"transaction_type":"Debit","memo":"Walgreens","balance":5.75,"posted_at":"2013-04-12T00:00:00+00:00","created_at":"2013-06-20T23:48:09+00:00","nickname":"Walgreens","original_name":"Walgreens","check_number":null,"tags":[{"tag":{"name":"Health","balance":5.75}}]}}]}'
     http_version: 
-  recorded_at: Mon, 08 Jul 2013 21:59:15 GMT
+  recorded_at: Tue, 09 Jul 2013 02:29:30 GMT
 - request:
     method: get
     uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372082/transactions?page=6
@@ -362,7 +362,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 08 Jul 2013 21:59:15 GMT
+      - Tue, 09 Jul 2013 02:29:29 GMT
       Status:
       - 200 OK
       Content-Type:
@@ -374,7 +374,7 @@ http_interactions:
       Cache-Control:
       - must-revalidate, private, max-age=0, no-cache, no-store
       X-Runtime:
-      - '0.083339'
+      - '0.083908'
       X-Rack-Cache:
       - miss
       Vary:
@@ -382,9 +382,9 @@ http_interactions:
       P3p:
       - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
       X-Request-Start:
-      - t=1373320755518071
+      - t=1373336969897990
       X-Trace:
-      - 1B7BFF57946D9CBEBE1B71999AA33DDF4A6293071939917A1A3806217A
+      - 1B84C76B679CB2DFAE1FBE326950EEE03DF13A026219BEFD5C21C8D2DB
       Transfer-Encoding:
       - chunked
     body:
@@ -393,7 +393,7 @@ http_interactions:
         Payroll","balance":2809.85,"posted_at":"2013-04-06T00:00:00+00:00","created_at":"2013-06-20T23:48:11+00:00","nickname":"Company
         Payroll","original_name":"Company Payroll","check_number":null,"tags":[{"tag":{"name":"Income","balance":2809.85}}]}}]}'
     http_version: 
-  recorded_at: Mon, 08 Jul 2013 21:59:16 GMT
+  recorded_at: Tue, 09 Jul 2013 02:29:31 GMT
 - request:
     method: get
     uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372083/transactions?page=1
@@ -407,7 +407,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 08 Jul 2013 21:59:16 GMT
+      - Tue, 09 Jul 2013 02:29:30 GMT
       Status:
       - 200 OK
       Content-Type:
@@ -419,7 +419,7 @@ http_interactions:
       Cache-Control:
       - must-revalidate, private, max-age=0, no-cache, no-store
       X-Runtime:
-      - '0.087062'
+      - '0.095396'
       X-Rack-Cache:
       - miss
       Vary:
@@ -427,9 +427,9 @@ http_interactions:
       P3p:
       - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
       X-Request-Start:
-      - t=1373320756092309
+      - t=1373336970539898
       X-Trace:
-      - 1B58DBF03745D427911E1022C9C30B4C43C6559434B06E44541142394C
+      - 1BD6B54156C669E6BE04F30B5C84972E67827067C6AE097F8A417440A9
       Transfer-Encoding:
       - chunked
     body:
@@ -444,7 +444,7 @@ http_interactions:
         Payment","balance":1148.82,"posted_at":"2013-06-08T00:00:00+00:00","created_at":"2013-06-20T23:47:49+00:00","nickname":"Mortgage
         Payment","original_name":"Mortgage Payment","check_number":null,"tags":[{"tag":{"name":"Utilities","balance":1148.82}}]}}]}'
     http_version: 
-  recorded_at: Mon, 08 Jul 2013 21:59:16 GMT
+  recorded_at: Tue, 09 Jul 2013 02:29:31 GMT
 - request:
     method: get
     uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372083/transactions?page=1
@@ -458,7 +458,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 08 Jul 2013 21:59:16 GMT
+      - Tue, 09 Jul 2013 02:29:31 GMT
       Status:
       - 200 OK
       Content-Type:
@@ -470,7 +470,7 @@ http_interactions:
       Cache-Control:
       - must-revalidate, private, max-age=0, no-cache, no-store
       X-Runtime:
-      - '0.237701'
+      - '0.114594'
       X-Rack-Cache:
       - miss
       Vary:
@@ -478,9 +478,9 @@ http_interactions:
       P3p:
       - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
       X-Request-Start:
-      - t=1373320756666235
+      - t=1373336971382796
       X-Trace:
-      - 1B9CA524B7914E55A73314677ECFBCB01CD3271039907FA5CFE86739CE
+      - 1B2908CC375683CC4672B461FAA16E9F9E95528A6B4A6DE8C3F0266B8C
       Transfer-Encoding:
       - chunked
     body:
@@ -495,7 +495,7 @@ http_interactions:
         Payment","balance":1148.82,"posted_at":"2013-06-08T00:00:00+00:00","created_at":"2013-06-20T23:47:49+00:00","nickname":"Mortgage
         Payment","original_name":"Mortgage Payment","check_number":null,"tags":[{"tag":{"name":"Utilities","balance":1148.82}}]}}]}'
     http_version: 
-  recorded_at: Mon, 08 Jul 2013 21:59:17 GMT
+  recorded_at: Tue, 09 Jul 2013 02:29:32 GMT
 - request:
     method: get
     uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372083/transactions?page=2
@@ -509,7 +509,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 08 Jul 2013 21:59:17 GMT
+      - Tue, 09 Jul 2013 02:29:32 GMT
       Status:
       - 200 OK
       Content-Type:
@@ -521,7 +521,7 @@ http_interactions:
       Cache-Control:
       - must-revalidate, private, max-age=0, no-cache, no-store
       X-Runtime:
-      - '0.093262'
+      - '0.095345'
       X-Rack-Cache:
       - miss
       Vary:
@@ -529,9 +529,9 @@ http_interactions:
       P3p:
       - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
       X-Request-Start:
-      - t=1373320757403548
+      - t=1373336972068104
       X-Trace:
-      - 1B63EC6CD75B6202CBAB90810EBAA6FE94A07402DD4A44802F30EBEAA5
+      - 1B7221F2DEDBEFA59C157BA758D0EA1029925FC5038838E410DB5044A9
       Transfer-Encoding:
       - chunked
     body:
@@ -546,7 +546,7 @@ http_interactions:
         Credit","balance":234.29,"posted_at":"2013-05-25T00:00:00+00:00","created_at":"2013-06-20T23:47:54+00:00","nickname":"Ford
         Credit","original_name":"Ford Credit","check_number":null,"tags":[{"tag":{"name":"Transportation","balance":234.29}}]}},{"transaction":{"id":"c8b95169-40cf-4d9e-ade6-65f908e2b512","reference_id":null,"transaction_type":"Debit","memo":"Friendlys","balance":46.95,"posted_at":"2013-05-24T00:00:00+00:00","created_at":"2013-06-20T23:47:54+00:00","nickname":"Friendlys","original_name":"Friendlys","check_number":null,"tags":[{"tag":{"name":"Diningout","balance":46.95}}]}}]}'
     http_version: 
-  recorded_at: Mon, 08 Jul 2013 21:59:18 GMT
+  recorded_at: Tue, 09 Jul 2013 02:29:33 GMT
 - request:
     method: get
     uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372083/transactions?page=3
@@ -560,7 +560,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 08 Jul 2013 21:59:18 GMT
+      - Tue, 09 Jul 2013 02:29:32 GMT
       Status:
       - 200 OK
       Content-Type:
@@ -572,7 +572,7 @@ http_interactions:
       Cache-Control:
       - must-revalidate, private, max-age=0, no-cache, no-store
       X-Runtime:
-      - '0.089467'
+      - '0.091862'
       X-Rack-Cache:
       - miss
       Vary:
@@ -580,9 +580,9 @@ http_interactions:
       P3p:
       - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
       X-Request-Start:
-      - t=1373320758010015
+      - t=1373336972728775
       X-Trace:
-      - 1B5DE354AF3764C1A16F3DD1CA0B98248BCB61DB57C8AE5545ACFB7EC1
+      - 1B31AC7C335B1007D7B873900ED1B52F88A9DDC679816ECF2AF8A83566
       Transfer-Encoding:
       - chunked
     body:
@@ -591,7 +591,7 @@ http_interactions:
         Payroll","balance":2809.85,"posted_at":"2013-05-16T00:00:00+00:00","created_at":"2013-06-20T23:47:58+00:00","nickname":"Company
         Payroll","original_name":"Company Payroll","check_number":null,"tags":[{"tag":{"name":"Income","balance":2809.85}}]}},{"transaction":{"id":"91620e78-f986-4b9b-a014-2586c85474a3","reference_id":null,"transaction_type":"Debit","memo":"KFC","balance":8.48,"posted_at":"2013-05-14T00:00:00+00:00","created_at":"2013-06-20T23:47:59+00:00","nickname":"KFC","original_name":"KFC","check_number":null,"tags":[{"tag":{"name":"Diningout","balance":8.48}}]}},{"transaction":{"id":"072fece7-cae9-4e86-8e88-a03f95c1714c","reference_id":null,"transaction_type":"Debit","memo":"Macys","balance":64.15,"posted_at":"2013-05-11T00:00:00+00:00","created_at":"2013-06-20T23:48:00+00:00","nickname":"Macys","original_name":"Macys","check_number":null,"tags":[{"tag":{"name":"Personal","balance":64.15}}]}}]}'
     http_version: 
-  recorded_at: Mon, 08 Jul 2013 21:59:18 GMT
+  recorded_at: Tue, 09 Jul 2013 02:29:33 GMT
 - request:
     method: get
     uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372083/transactions?page=4
@@ -605,7 +605,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 08 Jul 2013 21:59:18 GMT
+      - Tue, 09 Jul 2013 02:29:33 GMT
       Status:
       - 200 OK
       Content-Type:
@@ -617,7 +617,7 @@ http_interactions:
       Cache-Control:
       - must-revalidate, private, max-age=0, no-cache, no-store
       X-Runtime:
-      - '0.085562'
+      - '0.093145'
       X-Rack-Cache:
       - miss
       Vary:
@@ -625,9 +625,9 @@ http_interactions:
       P3p:
       - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
       X-Request-Start:
-      - t=1373320758604820
+      - t=1373336973375011
       X-Trace:
-      - 1B441355F88336A9ED9338E5533BA2E76DADEEB6D608FBE01FF72D0548
+      - 1BD640C7BB76B3CEA1BF0DEF512B85C75AD4DAD1780DD7B7E2CBF204E2
       Transfer-Encoding:
       - chunked
     body:
@@ -640,7 +640,7 @@ http_interactions:
         Buy","balance":37.17,"posted_at":"2013-04-28T00:00:00+00:00","created_at":"2013-06-20T23:48:04+00:00","nickname":"Best
         Buy","original_name":"Best Buy","check_number":null,"tags":[{"tag":{"name":"Personal","balance":37.17}}]}}]}'
     http_version: 
-  recorded_at: Mon, 08 Jul 2013 21:59:19 GMT
+  recorded_at: Tue, 09 Jul 2013 02:29:34 GMT
 - request:
     method: get
     uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372083/transactions?page=5
@@ -654,7 +654,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 08 Jul 2013 21:59:19 GMT
+      - Tue, 09 Jul 2013 02:29:34 GMT
       Status:
       - 200 OK
       Content-Type:
@@ -666,7 +666,7 @@ http_interactions:
       Cache-Control:
       - must-revalidate, private, max-age=0, no-cache, no-store
       X-Runtime:
-      - '0.089852'
+      - '0.093226'
       X-Rack-Cache:
       - miss
       Vary:
@@ -674,9 +674,9 @@ http_interactions:
       P3p:
       - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
       X-Request-Start:
-      - t=1373320759193946
+      - t=1373336974020914
       X-Trace:
-      - 1B9BC1E81649D7AFA7ACE25DA5A1A05BF9DB53DF1DF672BE300778A41E
+      - 1BD03EADFF82FEBDB05FBBC650F782D14D27413AB66830A506F3704297
       Transfer-Encoding:
       - chunked
     body:
@@ -689,7 +689,7 @@ http_interactions:
         Payroll","balance":2809.85,"posted_at":"2013-04-17T00:00:00+00:00","created_at":"2013-06-20T23:48:07+00:00","nickname":"Company
         Payroll","original_name":"Company Payroll","check_number":null,"tags":[{"tag":{"name":"Income","balance":2809.85}}]}},{"transaction":{"id":"86c149f9-e110-410a-8e66-1c0d9ce94ec6","reference_id":null,"transaction_type":"Debit","memo":"USPS","balance":8.42,"posted_at":"2013-04-15T00:00:00+00:00","created_at":"2013-06-20T23:48:08+00:00","nickname":"USPS","original_name":"USPS","check_number":null,"tags":[{"tag":{"name":"Personal","balance":8.42}}]}},{"transaction":{"id":"7a0c933f-658d-4670-8879-6f49b16efe38","reference_id":null,"transaction_type":"Debit","memo":"Wal-Mart","balance":67.45,"posted_at":"2013-04-12T00:00:00+00:00","created_at":"2013-06-20T23:48:09+00:00","nickname":"Wal-Mart","original_name":"Wal-Mart","check_number":null,"tags":[{"tag":{"name":"Personal","balance":67.45}}]}}]}'
     http_version: 
-  recorded_at: Mon, 08 Jul 2013 21:59:20 GMT
+  recorded_at: Tue, 09 Jul 2013 02:29:35 GMT
 - request:
     method: get
     uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372083/transactions?page=6
@@ -703,7 +703,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 08 Jul 2013 21:59:19 GMT
+      - Tue, 09 Jul 2013 02:29:34 GMT
       Status:
       - 200 OK
       Content-Type:
@@ -715,7 +715,7 @@ http_interactions:
       Cache-Control:
       - must-revalidate, private, max-age=0, no-cache, no-store
       X-Runtime:
-      - '0.082643'
+      - '0.085642'
       X-Rack-Cache:
       - miss
       Vary:
@@ -723,9 +723,9 @@ http_interactions:
       P3p:
       - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
       X-Request-Start:
-      - t=1373320759765013
+      - t=1373336974662787
       X-Trace:
-      - 1B21BEB52822AB5D9F597BFA685106EAE1FBF732B38B9716DFD9D6F0BC
+      - 1B09ED9B5D47D7B96F0073A5CFD275C8B171F1B223FF8E4754EB095BB8
       Transfer-Encoding:
       - chunked
     body:
@@ -738,7 +738,7 @@ http_interactions:
         Bell","balance":5.69,"posted_at":"2013-04-06T00:00:00+00:00","created_at":"2013-06-20T23:48:11+00:00","nickname":"Taco
         Bell","original_name":"Taco Bell","check_number":null,"tags":[{"tag":{"name":"Diningout","balance":5.69}}]}}]}'
     http_version: 
-  recorded_at: Mon, 08 Jul 2013 21:59:20 GMT
+  recorded_at: Tue, 09 Jul 2013 02:29:35 GMT
 - request:
     method: get
     uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372084/transactions?page=1
@@ -752,7 +752,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 08 Jul 2013 21:59:20 GMT
+      - Tue, 09 Jul 2013 02:29:35 GMT
       Status:
       - 200 OK
       Content-Type:
@@ -764,7 +764,7 @@ http_interactions:
       Cache-Control:
       - must-revalidate, private, max-age=0, no-cache, no-store
       X-Runtime:
-      - '0.090938'
+      - '0.088455'
       X-Rack-Cache:
       - miss
       Vary:
@@ -772,9 +772,9 @@ http_interactions:
       P3p:
       - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
       X-Request-Start:
-      - t=1373320760335832
+      - t=1373336975312933
       X-Trace:
-      - 1B75694B1724EEA9215B63BC64F352BDD05CF8CA70F663D24C504C595E
+      - 1B9C95F2D42525BE57CAFE79E1D529D4274EE9F510A2459238876E0AD7
       Transfer-Encoding:
       - chunked
     body:
@@ -787,7 +787,7 @@ http_interactions:
         Store","balance":258.34,"posted_at":"2013-06-12T00:00:00+00:00","created_at":"2013-06-20T23:47:48+00:00","nickname":"Apple
         Store","original_name":"Apple Store","check_number":null,"tags":[{"tag":{"name":"Personal","balance":258.34}}]}},{"transaction":{"id":"45beba04-c1cb-421b-912f-7776bccb0c43","reference_id":null,"transaction_type":"Debit","memo":"McDonalds","balance":4.22,"posted_at":"2013-06-10T00:00:00+00:00","created_at":"2013-06-20T23:47:49+00:00","nickname":"McDonalds","original_name":"McDonalds","check_number":null,"tags":[{"tag":{"name":"Diningout","balance":4.22}}]}}]}'
     http_version: 
-  recorded_at: Mon, 08 Jul 2013 21:59:21 GMT
+  recorded_at: Tue, 09 Jul 2013 02:29:36 GMT
 - request:
     method: get
     uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372084/transactions?page=1
@@ -801,7 +801,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 08 Jul 2013 21:59:21 GMT
+      - Tue, 09 Jul 2013 02:29:36 GMT
       Status:
       - 200 OK
       Content-Type:
@@ -813,7 +813,7 @@ http_interactions:
       Cache-Control:
       - must-revalidate, private, max-age=0, no-cache, no-store
       X-Runtime:
-      - '0.083530'
+      - '0.089877'
       X-Rack-Cache:
       - miss
       Vary:
@@ -821,9 +821,9 @@ http_interactions:
       P3p:
       - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
       X-Request-Start:
-      - t=1373320760926490
+      - t=1373336975978908
       X-Trace:
-      - 1BC91E23CB4211AB687D053B2B4F513B6E409B572452BE2130A7B16A2B
+      - 1B1BCE733BF967D586196C18FD1648914EA20F15AADD966AB2EAE01BEF
       Transfer-Encoding:
       - chunked
     body:
@@ -836,7 +836,7 @@ http_interactions:
         Store","balance":258.34,"posted_at":"2013-06-12T00:00:00+00:00","created_at":"2013-06-20T23:47:48+00:00","nickname":"Apple
         Store","original_name":"Apple Store","check_number":null,"tags":[{"tag":{"name":"Personal","balance":258.34}}]}},{"transaction":{"id":"45beba04-c1cb-421b-912f-7776bccb0c43","reference_id":null,"transaction_type":"Debit","memo":"McDonalds","balance":4.22,"posted_at":"2013-06-10T00:00:00+00:00","created_at":"2013-06-20T23:47:49+00:00","nickname":"McDonalds","original_name":"McDonalds","check_number":null,"tags":[{"tag":{"name":"Diningout","balance":4.22}}]}}]}'
     http_version: 
-  recorded_at: Mon, 08 Jul 2013 21:59:21 GMT
+  recorded_at: Tue, 09 Jul 2013 02:29:37 GMT
 - request:
     method: get
     uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372084/transactions?page=2
@@ -850,7 +850,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 08 Jul 2013 21:59:21 GMT
+      - Tue, 09 Jul 2013 02:29:36 GMT
       Status:
       - 200 OK
       Content-Type:
@@ -862,7 +862,7 @@ http_interactions:
       Cache-Control:
       - must-revalidate, private, max-age=0, no-cache, no-store
       X-Runtime:
-      - '0.244711'
+      - '0.093619'
       X-Rack-Cache:
       - miss
       Vary:
@@ -870,9 +870,9 @@ http_interactions:
       P3p:
       - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
       X-Request-Start:
-      - t=1373320761648601
+      - t=1373336976627027
       X-Trace:
-      - 1B539167B609137F6587FB2F64BAEECC7384742E426D90EA4A44F45CE0
+      - 1B48A1F195708DF1D15967091EA71E871BF70D1E6AECF0C7E9FFA34D99
       Transfer-Encoding:
       - chunked
     body:
@@ -887,7 +887,7 @@ http_interactions:
         Wholesale","balance":69.36,"posted_at":"2013-05-25T00:00:00+00:00","created_at":"2013-06-20T23:47:53+00:00","nickname":"BJs
         Wholesale","original_name":"BJs Wholesale","check_number":null,"tags":[{"tag":{"name":"Groceries","balance":69.36}}]}},{"transaction":{"id":"a4e018e5-9a75-477a-8634-b33508bca6d7","reference_id":null,"transaction_type":"Debit","memo":"MovieTickets.com","balance":31.5,"posted_at":"2013-05-24T00:00:00+00:00","created_at":"2013-06-20T23:47:54+00:00","nickname":"MovieTickets.com","original_name":"MovieTickets.com","check_number":null,"tags":[{"tag":{"name":"Entertainment","balance":31.5}}]}}]}'
     http_version: 
-  recorded_at: Mon, 08 Jul 2013 21:59:22 GMT
+  recorded_at: Tue, 09 Jul 2013 02:29:37 GMT
 - request:
     method: get
     uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372084/transactions?page=3
@@ -901,7 +901,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 08 Jul 2013 21:59:22 GMT
+      - Tue, 09 Jul 2013 02:29:37 GMT
       Status:
       - 200 OK
       Content-Type:
@@ -913,7 +913,7 @@ http_interactions:
       Cache-Control:
       - must-revalidate, private, max-age=0, no-cache, no-store
       X-Runtime:
-      - '0.090161'
+      - '0.099516'
       X-Rack-Cache:
       - miss
       Vary:
@@ -921,9 +921,9 @@ http_interactions:
       P3p:
       - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
       X-Request-Start:
-      - t=1373320762422759
+      - t=1373336977277005
       X-Trace:
-      - 1BAC2387C0D0CAF67EC5F7C311E87F76C7612150A260293BB0D1D6E440
+      - 1B3F2D13FD2293684B1C8EA87B85B65FD95CC6E10F49405F7DCE6030EC
       Transfer-Encoding:
       - chunked
     body:
@@ -934,7 +934,7 @@ http_interactions:
         Credit","balance":298.88,"posted_at":"2013-05-14T00:00:00+00:00","created_at":"2013-06-20T23:47:59+00:00","nickname":"Volkswagen
         Credit","original_name":"Volkswagen Credit","check_number":null,"tags":[{"tag":{"name":"Transportation","balance":298.88}}]}},{"transaction":{"id":"267401c5-2973-49a1-845b-9355e901e7d2","reference_id":null,"transaction_type":"Debit","memo":"UPS","balance":9.58,"posted_at":"2013-05-10T00:00:00+00:00","created_at":"2013-06-20T23:48:00+00:00","nickname":"UPS","original_name":"UPS","check_number":null,"tags":[{"tag":{"name":"Personal","balance":9.58}}]}}]}'
     http_version: 
-  recorded_at: Mon, 08 Jul 2013 21:59:23 GMT
+  recorded_at: Tue, 09 Jul 2013 02:29:38 GMT
 - request:
     method: get
     uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372084/transactions?page=4
@@ -948,7 +948,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 08 Jul 2013 21:59:23 GMT
+      - Tue, 09 Jul 2013 02:29:38 GMT
       Status:
       - 200 OK
       Content-Type:
@@ -960,7 +960,7 @@ http_interactions:
       Cache-Control:
       - must-revalidate, private, max-age=0, no-cache, no-store
       X-Runtime:
-      - '0.085678'
+      - '0.092140'
       X-Rack-Cache:
       - miss
       Vary:
@@ -968,9 +968,9 @@ http_interactions:
       P3p:
       - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
       X-Request-Start:
-      - t=1373320762997627
+      - t=1373336977928939
       X-Trace:
-      - 1B9247A53C139F34D81343B1EA152C74C6DFF76D3F4432F0CA6A214E37
+      - 1B01147637A3597250C45500CC450E84747BEA23BA07082065709270A3
       Transfer-Encoding:
       - chunked
     body:
@@ -979,7 +979,7 @@ http_interactions:
         Hut","balance":14.78,"posted_at":"2013-05-03T00:00:00+00:00","created_at":"2013-06-20T23:48:02+00:00","nickname":"Pizza
         Hut","original_name":"Pizza Hut","check_number":null,"tags":[{"tag":{"name":"Diningout","balance":14.78}}]}},{"transaction":{"id":"d00fa398-9856-4e84-b730-52343da6bdbb","reference_id":null,"transaction_type":"Debit","memo":"Popeyes","balance":8.24,"posted_at":"2013-05-01T00:00:00+00:00","created_at":"2013-06-20T23:48:03+00:00","nickname":"Popeyes","original_name":"Popeyes","check_number":null,"tags":[{"tag":{"name":"Diningout","balance":8.24}}]}},{"transaction":{"id":"25cbd289-66ba-45c2-a74f-50ad17dea467","reference_id":null,"transaction_type":"Debit","memo":"CompUSA","balance":35.14,"posted_at":"2013-04-29T00:00:00+00:00","created_at":"2013-06-20T23:48:03+00:00","nickname":"CompUSA","original_name":"CompUSA","check_number":null,"tags":[{"tag":{"name":"Personal","balance":35.14}}]}},{"transaction":{"id":"3c400bed-19b7-4502-aaee-ab5ed9a6810a","reference_id":null,"transaction_type":"Debit","memo":"Shell","balance":42.63,"posted_at":"2013-04-27T00:00:00+00:00","created_at":"2013-06-20T23:48:04+00:00","nickname":"Shell","original_name":"Shell","check_number":null,"tags":[{"tag":{"name":"Transportation","balance":42.63}}]}}]}'
     http_version: 
-  recorded_at: Mon, 08 Jul 2013 21:59:23 GMT
+  recorded_at: Tue, 09 Jul 2013 02:29:39 GMT
 - request:
     method: get
     uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372084/transactions?page=5
@@ -993,7 +993,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 08 Jul 2013 21:59:23 GMT
+      - Tue, 09 Jul 2013 02:29:38 GMT
       Status:
       - 200 OK
       Content-Type:
@@ -1005,7 +1005,7 @@ http_interactions:
       Cache-Control:
       - must-revalidate, private, max-age=0, no-cache, no-store
       X-Runtime:
-      - '0.091486'
+      - '0.100082'
       X-Rack-Cache:
       - miss
       Vary:
@@ -1013,9 +1013,9 @@ http_interactions:
       P3p:
       - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
       X-Request-Start:
-      - t=1373320763576904
+      - t=1373336978566053
       X-Trace:
-      - 1BD69C92B34F8FEC82F8230990CCAB58B245D250934B765D2B69C6EAB9
+      - 1BFE634A44802B6E5EAC94B443B8D1100B4D1972BDF684EE4CB8F5A4D0
       Transfer-Encoding:
       - chunked
     body:
@@ -1026,7 +1026,7 @@ http_interactions:
         Diner","balance":19.63,"posted_at":"2013-04-15T00:00:00+00:00","created_at":"2013-06-20T23:48:08+00:00","nickname":"Vernon
         Diner","original_name":"Vernon Diner","check_number":null,"tags":[{"tag":{"name":"Diningout","balance":19.63}}]}},{"transaction":{"id":"0d147abe-514f-4355-854c-6973d15e88f4","reference_id":null,"transaction_type":"Debit","memo":"CineMark","balance":15.75,"posted_at":"2013-04-12T00:00:00+00:00","created_at":"2013-06-20T23:48:09+00:00","nickname":"CineMark","original_name":"CineMark","check_number":null,"tags":[{"tag":{"name":"Entertainment","balance":15.75}}]}}]}'
     http_version: 
-  recorded_at: Mon, 08 Jul 2013 21:59:24 GMT
+  recorded_at: Tue, 09 Jul 2013 02:29:39 GMT
 - request:
     method: get
     uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372084/transactions?page=6
@@ -1040,7 +1040,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 08 Jul 2013 21:59:24 GMT
+      - Tue, 09 Jul 2013 02:29:39 GMT
       Status:
       - 200 OK
       Content-Type:
@@ -1052,7 +1052,7 @@ http_interactions:
       Cache-Control:
       - must-revalidate, private, max-age=0, no-cache, no-store
       X-Runtime:
-      - '0.083006'
+      - '0.086259'
       X-Rack-Cache:
       - miss
       Vary:
@@ -1060,9 +1060,9 @@ http_interactions:
       P3p:
       - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
       X-Request-Start:
-      - t=1373320764163213
+      - t=1373336979211664
       X-Trace:
-      - 1B3147019E44C938B8B04CEEBEF8995CA4EDDB16E69C4C59E7EAE9353A
+      - 1BA65E5CFE6EFAD765654178B2D02492BC62EBD3ACFA32B34E70E0463D
       Transfer-Encoding:
       - chunked
     body:
@@ -1071,5 +1071,5 @@ http_interactions:
         King","balance":16.48,"posted_at":"2013-04-07T00:00:00+00:00","created_at":"2013-06-20T23:48:11+00:00","nickname":"Burger
         King","original_name":"Burger King","check_number":null,"tags":[{"tag":{"name":"Diningout","balance":16.48}}]}},{"transaction":{"id":"05d22e32-7453-449a-ba94-02d07eae66fd","reference_id":null,"transaction_type":"Debit","memo":"Citgo","balance":36.64,"posted_at":"2013-04-05T00:00:00+00:00","created_at":"2013-06-20T23:48:11+00:00","nickname":"Citgo","original_name":"Citgo","check_number":null,"tags":[{"tag":{"name":"Transportation","balance":36.64}}]}}]}'
     http_version: 
-  recorded_at: Mon, 08 Jul 2013 21:59:25 GMT
+  recorded_at: Tue, 09 Jul 2013 02:29:40 GMT
 recorded_with: VCR 2.5.0

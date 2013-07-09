@@ -13,7 +13,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 08 Jul 2013 21:59:38 GMT
+      - Tue, 09 Jul 2013 02:29:44 GMT
       Status:
       - 200 OK
       Content-Type:
@@ -25,7 +25,7 @@ http_interactions:
       Cache-Control:
       - must-revalidate, private, max-age=0, no-cache, no-store
       X-Runtime:
-      - '0.085329'
+      - '0.069980'
       X-Rack-Cache:
       - miss
       Vary:
@@ -33,14 +33,14 @@ http_interactions:
       P3p:
       - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
       X-Request-Start:
-      - t=1373320778273126
+      - t=1373336984333708
       X-Trace:
-      - 1BAB3E88DA1697ABC4348FD45EC6F66576CB25B4D6AEFD6DAD89ECC1BD
+      - 1B344A19817622769EB20A64E36DCE1EF10D142674D10F04EE45C352D2
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"id":1947071,"partner_customer_id":"testy","first_name":"Sample","last_name":"User"}'
     http_version: 
-  recorded_at: Mon, 08 Jul 2013 21:59:39 GMT
+  recorded_at: Tue, 09 Jul 2013 02:29:45 GMT
 recorded_with: VCR 2.5.0

@@ -13,7 +13,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 08 Jul 2013 21:59:25 GMT
+      - Tue, 09 Jul 2013 02:29:22 GMT
       Status:
       - 200 OK
       Content-Type:
@@ -25,7 +25,7 @@ http_interactions:
       Cache-Control:
       - must-revalidate, private, max-age=0, no-cache, no-store
       X-Runtime:
-      - '0.072672'
+      - '0.061631'
       X-Rack-Cache:
       - miss
       Vary:
@@ -33,9 +33,9 @@ http_interactions:
       P3p:
       - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
       X-Request-Start:
-      - t=1373320765918736
+      - t=1373336962798996
       X-Trace:
-      - 1BF9BDAF497059DDF20CA3CE59FC3DC12343E9FABFD80BE1EA1E0B972C
+      - 1B5D250E323EAC761273ABBFDDDEF406E2B7FA9464EF5E9F9E1DB792BA
       Transfer-Encoding:
       - chunked
     body:
@@ -44,7 +44,7 @@ http_interactions:
         Savings","balance":"1000.0","reference_id":"278914032","aggregation_type":"partner","state":"active","harvest_updated_at":null,"account_type":null,"fi":null},{"id":4372084,"name":"Preferred
         Plus Card","balance":"769.88","reference_id":"10984092","aggregation_type":"partner","state":"active","harvest_updated_at":null,"account_type":null,"fi":null}]}'
     http_version: 
-  recorded_at: Mon, 08 Jul 2013 21:59:26 GMT
+  recorded_at: Tue, 09 Jul 2013 02:29:23 GMT
 - request:
     method: get
     uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy/accounts/4372082
@@ -58,7 +58,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 08 Jul 2013 21:59:27 GMT
+      - Tue, 09 Jul 2013 02:29:23 GMT
       Status:
       - 200 OK
       Content-Type:
@@ -70,7 +70,7 @@ http_interactions:
       Cache-Control:
       - must-revalidate, private, max-age=0, no-cache, no-store
       X-Runtime:
-      - '0.064089'
+      - '0.060934'
       X-Rack-Cache:
       - miss
       Vary:
@@ -78,14 +78,14 @@ http_interactions:
       P3p:
       - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
       X-Request-Start:
-      - t=1373320767163215
+      - t=1373336963415363
       X-Trace:
-      - 1B482EBA7A4C133E55AB2DE0EE7D6E957F8D8E1636A7FD563ADAC931CB
+      - 1B9B6E648769405FD922A9391225F42AA08C548651E0C7769B786604E5
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"id":4372082,"name":"eChecking","balance":"300.54","reference_id":"789274930","aggregation_type":"partner","state":"active","harvest_updated_at":null,"account_type":null,"fi":null}'
     http_version: 
-  recorded_at: Mon, 08 Jul 2013 21:59:27 GMT
+  recorded_at: Tue, 09 Jul 2013 02:29:24 GMT
 recorded_with: VCR 2.5.0

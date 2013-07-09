@@ -13,7 +13,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 08 Jul 2013 21:59:34 GMT
+      - Tue, 09 Jul 2013 02:29:13 GMT
       Status:
       - 200 OK
       Content-Type:
@@ -25,7 +25,7 @@ http_interactions:
       Cache-Control:
       - must-revalidate, private, max-age=0, no-cache, no-store
       X-Runtime:
-      - '0.058572'
+      - '0.061627'
       X-Rack-Cache:
       - miss
       Vary:
@@ -33,9 +33,9 @@ http_interactions:
       P3p:
       - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
       X-Request-Start:
-      - t=1373320774230006
+      - t=1373336953262113
       X-Trace:
-      - 1B80B5B2EC3469629036533591F2408C86B9C6C72A8F0A5B78C42819CE
+      - 1B423D819EE63E5F43836F65F891CCC5D4862300F037CC4D011802FBFC
       Transfer-Encoding:
       - chunked
     body:
@@ -44,5 +44,5 @@ http_interactions:
         Savings","balance":"1000.0","reference_id":"278914032","aggregation_type":"partner","state":"active","harvest_updated_at":null,"account_type":null,"fi":null},{"id":4372084,"name":"Preferred
         Plus Card","balance":"769.88","reference_id":"10984092","aggregation_type":"partner","state":"active","harvest_updated_at":null,"account_type":null,"fi":null}]}'
     http_version: 
-  recorded_at: Mon, 08 Jul 2013 21:59:35 GMT
+  recorded_at: Tue, 09 Jul 2013 02:29:14 GMT
 recorded_with: VCR 2.5.0

@@ -27,7 +27,8 @@ Or install it yourself as:
 
 The tests will run without credentials using the included VCR cassettes.
 
-If you wish to record new cassettes please set VCR_RECORD.
+If you wish to record new cassettes please set VCR_RECORD. You may want to
+delete any cassettes being re-recorded to ensure consistency.
 
 	bundle exec rspec VCR_RECORD=true
 
@@ -41,10 +42,11 @@ Geezeo.configure do |config|
 end
 ```
 
-If you wish to contribute your cassettes back to the project please anonymize
-them by replacing all occurrences of your api_key and user_id with "abc123"
-and "testy" respectively. This will be necessary in order for further test
-runs to pass without setting VCR_RECORD.
+When you are finished recording you must anonymize your cassettes to strip out
+your real credentials. Running tests without VCR_RECORD set will fail until
+you do this.
+
+	bundle exec rake vcr:anonymize
 
 ### Pull requests
 

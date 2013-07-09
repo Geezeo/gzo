@@ -9,8 +9,8 @@ require "geezeo"
 require "pry"
 
 if ENV["VCR_RECORD"]
-  if File.exist?("~/.geezeo/credentials.rb")
-    require "~/.geezeo/credentials"
+  if File.exist?("#{ENV["HOME"]}/.geezeo/credentials.rb")
+    require "#{ENV["HOME"]}/.geezeo/credentials"
   else
     raise "To record on the VCR you must have a credentials file (see README)"
   end

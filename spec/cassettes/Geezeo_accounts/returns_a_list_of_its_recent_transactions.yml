@@ -13,7 +13,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 08 Jul 2013 21:59:33 GMT
+      - Tue, 09 Jul 2013 02:29:12 GMT
       Status:
       - 200 OK
       Content-Type:
@@ -25,7 +25,7 @@ http_interactions:
       Cache-Control:
       - must-revalidate, private, max-age=0, no-cache, no-store
       X-Runtime:
-      - '0.057890'
+      - '0.063612'
       X-Rack-Cache:
       - miss
       Vary:
@@ -33,9 +33,9 @@ http_interactions:
       P3p:
       - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
       X-Request-Start:
-      - t=1373320773096180
+      - t=1373336951954622
       X-Trace:
-      - 1BA6AEFA686CC4C2776F4B422FDF5DD2CB10E3D24CD30E2CAD7FE6AEAB
+      - 1B8543CC80B1A610794C84015B3F084F5339620F4BBE8EA2556E0BCDBB
       Transfer-Encoding:
       - chunked
     body:
@@ -44,7 +44,7 @@ http_interactions:
         Savings","balance":"1000.0","reference_id":"278914032","aggregation_type":"partner","state":"active","harvest_updated_at":null,"account_type":null,"fi":null},{"id":4372084,"name":"Preferred
         Plus Card","balance":"769.88","reference_id":"10984092","aggregation_type":"partner","state":"active","harvest_updated_at":null,"account_type":null,"fi":null}]}'
     http_version: 
-  recorded_at: Mon, 08 Jul 2013 21:59:33 GMT
+  recorded_at: Tue, 09 Jul 2013 02:29:13 GMT
 - request:
     method: get
     uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372082/transactions?page=1
@@ -58,7 +58,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 08 Jul 2013 21:59:33 GMT
+      - Tue, 09 Jul 2013 02:29:12 GMT
       Status:
       - 200 OK
       Content-Type:
@@ -70,7 +70,7 @@ http_interactions:
       Cache-Control:
       - must-revalidate, private, max-age=0, no-cache, no-store
       X-Runtime:
-      - '0.091034'
+      - '0.116210'
       X-Rack-Cache:
       - miss
       Vary:
@@ -78,9 +78,9 @@ http_interactions:
       P3p:
       - CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
       X-Request-Start:
-      - t=1373320773644329
+      - t=1373336952586646
       X-Trace:
-      - 1B31D79A014660CDC16B0A5DC3D831E5A5726AC090F380BA420B37AC90
+      - 1B0F0DF2BB9BF5DB432D9F3CFFF29CEB58FDA9D83EB19B5735C21EDACD
       Transfer-Encoding:
       - chunked
     body:
@@ -97,5 +97,5 @@ http_interactions:
         Sporting Goods","balance":45.63,"posted_at":"2013-06-10T00:00:00+00:00","created_at":"2013-06-20T23:47:49+00:00","nickname":"Dicks
         Sporting Goods","original_name":"Dicks Sporting Goods","check_number":null,"tags":[{"tag":{"name":"Personal","balance":45.63}}]}}]}'
     http_version: 
-  recorded_at: Mon, 08 Jul 2013 21:59:34 GMT
+  recorded_at: Tue, 09 Jul 2013 02:29:13 GMT
 recorded_with: VCR 2.5.0
