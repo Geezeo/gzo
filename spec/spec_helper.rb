@@ -1,20 +1,15 @@
 require "coveralls"
 Coveralls.wear!
 
+require "pry"
+
 require "webmock/rspec"
 require "vcr"
 
 require "geezeo"
 
-require "pry"
-
 if ENV["VCR_RECORD"]
-  if File.exist?("#{ENV["HOME"]}/.geezeo/credentials.rb")
-    require "#{ENV["HOME"]}/.geezeo/credentials"
-  else
-    raise "To record on the VCR you must have a credentials file (see README)"
-  end
-
+  require "geezeo/local_credentials"
 else
   Geezeo.configure do |config|
     config.api_key = "abc123"

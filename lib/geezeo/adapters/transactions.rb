@@ -11,11 +11,13 @@ module Geezeo
         "/accounts/#{account.id}/transactions?page=#{page}"
       end 
 
-      def all
+      def all(recent=false)
         accounts = Geezeo::Adapters::Accounts.new(credentials).all
-        transactions = accounts.map{|account| find_all(account)}.flatten
+        transactions = accounts.map do |account|
+          recent ? find(account) : find_all(account)
+        end
 
-        sort_by_posted_at(transactions)
+        sort_by_posted_at(transactions.flatten)
       end
 
       def find_all(account, transaction_id="")
@@ -53,13 +55,6 @@ module Geezeo
 
       def posted_at(transaction)
         Time.parse(transaction.posted_at) rescue Time.new(0)
-      end
-
-      def recent
-        accounts = Geezeo::Adapters::Accounts.new(credentials).all
-        transactions = accounts.map{|account| find(account)}.flatten
-
-        sort_by_posted_at(transactions)
       end
 
       def request(account, page=1)

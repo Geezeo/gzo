@@ -10,7 +10,6 @@ describe "Geezeo accounts", :vcr do
   it "gets a list of all accounts" do
     account = @geezeo.accounts.all.first
 
-
     account.id.should_not be_nil
   end
 
@@ -67,7 +66,7 @@ describe "Geezeo transactions", :vcr do
   end
 
   it "gets a list of all recent transactions" do
-    transaction = @geezeo.transactions.recent.first
+    transaction = @geezeo.transactions.all(:recent).first
 
     transaction.id.should_not be_nil
   end
