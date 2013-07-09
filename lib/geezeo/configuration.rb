@@ -16,4 +16,3 @@ module Geezeo
     end
   end
 end
-
