@@ -4,6 +4,8 @@ module Geezeo
 
     def initialize(api_key, user_id)
       @credentials = Credentials.new(api_key, user_id)
+
+      raise "You must supply an api_key and user_id" unless valid?
     end
 
     def accounts
