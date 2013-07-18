@@ -3,6 +3,7 @@
   * Report unique user agent (Geezeous/VERSION) when making API requests
   * Use configure block to set up local credentials
   * Use ~/.geezeo/credentials.rb to store local credentials
+  * Add Geezeo.c shortcut to instantiate a client with local credentials
   * Set up VCR to record/playback API interactions
   * Set up anonymous VCR casssettes so tests can run without valid credentials
   * Add rake task to anonymize VCR cassettes
