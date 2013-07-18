@@ -9,6 +9,7 @@ require "geezeo/client"
 require "geezeo/host"
 require "geezeo/version"
 
+require "geezeo/adapters/concerns/requestable"
 require "geezeo/adapters/accounts"
 require "geezeo/adapters/transactions"
 require "geezeo/adapters/user"

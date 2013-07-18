@@ -3,6 +3,8 @@ module Geezeo
     class Transactions
       attr_reader :credentials
 
+      include Requestable
+
       def initialize(credentials)
         @credentials = credentials
       end

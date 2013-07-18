@@ -3,25 +3,25 @@ module Geezeo
     class Accounts
       attr_reader :credentials
 
+      include Requestable
+
       def initialize(credentials)
         @credentials = credentials
       end
 
-      def path
-        "/accounts"
+      def base_uri
+        "#{HOST}/users/#{credentials.user_id}/accounts"
       end
 
       def find(account_id)
-        response = HTTParty.get("#{HOST}/users/#{credentials.user_id}#{path}/#{account_id}",
-          basic_auth: {username: credentials.api_key, password: ""})
-
+        response = request(:get, "#{base_uri}/#{account_id}")
+        
         response["credentials"] = credentials
         Geezeo::Account.new(response)
       end
 
       def all
-        response = HTTParty.get("#{HOST}/users/#{credentials.user_id}#{path}",
-          basic_auth: {username: credentials.api_key, password: ""})
+        response = request(:get, base_uri)
 
         response["accounts"].map do |account|
           account["credentials"] = credentials
