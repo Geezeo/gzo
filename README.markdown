@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.org/fuzz/geezeo.png?branch=master)](https://travis-ci.org/fuzz/geezeo)
 [![Code Climate](https://codeclimate.com/github/fuzz/geezeo.png)](https://codeclimate.com/github/fuzz/geezeo)
 [![Coverage Status](https://coveralls.io/repos/fuzz/geezeo/badge.png?branch=master)](https://coveralls.io/r/fuzz/geezeo?branch=master)
+[![Dependency Status](https://gemnasium.com/fuzz/geezeo.png?travis)](https://gemnasium.com/fuzz/geezeo)
 
 # Geezeo
 
@@ -20,6 +21,32 @@ Or install it yourself as:
 
     $ gem install geezeo
 
+## Usage
+
+```ruby
+client = Geezeo.client("my-api-key", "my-user-id")
+
+client.accounts       # return all accounts
+```
+
+Alternately you can set up local credentials using a configure block inside a
+file named ~/.geezeo/configure.rb
+
+```ruby
+Geezeo.configure do |config|
+  config.api_key = "abc123"
+  config.user_id = "testy"
+end
+```
+
+Once your local credentials are set up you can instantiate a client with
+
+```ruby
+client = Geezeo.c
+```
+
+You will need local credentials set up if you wish to record to the VCR
+cassettes (see below).
 
 ## Contributing
 
