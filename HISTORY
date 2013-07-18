@@ -1,0 +1,14 @@
+0.0.2 - July 18, 2013
+  * Refactor HTTParty requests into requestable concern
+  * Report unique user agent (Geezeous/VERSION) when making API requests
+  * Use configure block to set up local credentials
+  * Use ~/.geezeo/credentials.rb to store local credentials
+  * Set up VCR to record/playback API interactions
+  * Set up anonymous VCR casssettes so tests can run without valid credentials
+  * Add rake task to anonymize VCR cassettes
+  * Anonymous VCR cassettes let us use guard happily, so that
+  * Anonymous VCR cassettes let us use TravisCI, so that, which lets us
+  * Set up Code Climate (4.0 as of this version)
+  * Set up Coveralls (98% as of this version)
+  * Set up Gemnasium
+  * Improve test coverage a bit, though there's not much to test without write

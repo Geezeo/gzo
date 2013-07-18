@@ -26,7 +26,10 @@ Or install it yourself as:
 ```ruby
 client = Geezeo.client("my-api-key", "my-user-id")
 
-client.accounts       # return all accounts
+# For more methods read through spec/functional or generate the yard doc
+client.accounts             # return all accounts
+client.accounts.find(123)   # return account 123
+client.user                 # return current user
 ```
 
 Alternately you can set up local credentials using a configure block inside a
@@ -45,8 +48,8 @@ Once your local credentials are set up you can instantiate a client with
 client = Geezeo.c
 ```
 
-You will need local credentials set up if you wish to record to the VCR
-cassettes (see below).
+You will need local credentials set up if you wish to record VCR cassettes
+(see below).
 
 ## Contributing
 
