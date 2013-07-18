@@ -7,7 +7,7 @@ module Geezeo
         params[:options] = options
         params[:method] = method
   
-        response = HTTParty.send(method, "#{path}",
+        response = HTTParty.send(method, path,
           basic_auth: {username: credentials.api_key, password: ""},
           query: options[:query],
           body: options[:body],

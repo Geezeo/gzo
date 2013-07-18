@@ -47,7 +47,7 @@ http_interactions:
   recorded_at: Tue, 09 Jul 2013 02:29:25 GMT
 - request:
     method: get
-    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372082/transactions?page=1
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy/accounts/4372082/transactions?page=1
     body:
       encoding: US-ASCII
       string: ''
@@ -100,7 +100,7 @@ http_interactions:
   recorded_at: Tue, 09 Jul 2013 02:29:26 GMT
 - request:
     method: get
-    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372082/transactions?page=1
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy/accounts/4372082/transactions?page=1
     body:
       encoding: US-ASCII
       string: ''
@@ -153,7 +153,7 @@ http_interactions:
   recorded_at: Tue, 09 Jul 2013 02:29:27 GMT
 - request:
     method: get
-    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372082/transactions?page=2
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy/accounts/4372082/transactions?page=2
     body:
       encoding: US-ASCII
       string: ''
@@ -206,7 +206,7 @@ http_interactions:
   recorded_at: Tue, 09 Jul 2013 02:29:27 GMT
 - request:
     method: get
-    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372082/transactions?page=3
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy/accounts/4372082/transactions?page=3
     body:
       encoding: US-ASCII
       string: ''
@@ -253,7 +253,7 @@ http_interactions:
   recorded_at: Tue, 09 Jul 2013 02:29:28 GMT
 - request:
     method: get
-    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372082/transactions?page=4
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy/accounts/4372082/transactions?page=4
     body:
       encoding: US-ASCII
       string: ''
@@ -302,7 +302,7 @@ http_interactions:
   recorded_at: Tue, 09 Jul 2013 02:29:29 GMT
 - request:
     method: get
-    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372082/transactions?page=5
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy/accounts/4372082/transactions?page=5
     body:
       encoding: US-ASCII
       string: ''
@@ -351,7 +351,7 @@ http_interactions:
   recorded_at: Tue, 09 Jul 2013 02:29:30 GMT
 - request:
     method: get
-    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372082/transactions?page=6
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy/accounts/4372082/transactions?page=6
     body:
       encoding: US-ASCII
       string: ''
@@ -396,7 +396,7 @@ http_interactions:
   recorded_at: Tue, 09 Jul 2013 02:29:31 GMT
 - request:
     method: get
-    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372083/transactions?page=1
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy/accounts/4372083/transactions?page=1
     body:
       encoding: US-ASCII
       string: ''
@@ -447,7 +447,7 @@ http_interactions:
   recorded_at: Tue, 09 Jul 2013 02:29:31 GMT
 - request:
     method: get
-    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372083/transactions?page=1
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy/accounts/4372083/transactions?page=1
     body:
       encoding: US-ASCII
       string: ''
@@ -498,7 +498,7 @@ http_interactions:
   recorded_at: Tue, 09 Jul 2013 02:29:32 GMT
 - request:
     method: get
-    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372083/transactions?page=2
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy/accounts/4372083/transactions?page=2
     body:
       encoding: US-ASCII
       string: ''
@@ -549,7 +549,7 @@ http_interactions:
   recorded_at: Tue, 09 Jul 2013 02:29:33 GMT
 - request:
     method: get
-    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372083/transactions?page=3
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy/accounts/4372083/transactions?page=3
     body:
       encoding: US-ASCII
       string: ''
@@ -594,7 +594,7 @@ http_interactions:
   recorded_at: Tue, 09 Jul 2013 02:29:33 GMT
 - request:
     method: get
-    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372083/transactions?page=4
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy/accounts/4372083/transactions?page=4
     body:
       encoding: US-ASCII
       string: ''
@@ -643,7 +643,7 @@ http_interactions:
   recorded_at: Tue, 09 Jul 2013 02:29:34 GMT
 - request:
     method: get
-    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372083/transactions?page=5
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy/accounts/4372083/transactions?page=5
     body:
       encoding: US-ASCII
       string: ''
@@ -692,7 +692,7 @@ http_interactions:
   recorded_at: Tue, 09 Jul 2013 02:29:35 GMT
 - request:
     method: get
-    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372083/transactions?page=6
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy/accounts/4372083/transactions?page=6
     body:
       encoding: US-ASCII
       string: ''
@@ -741,7 +741,7 @@ http_interactions:
   recorded_at: Tue, 09 Jul 2013 02:29:35 GMT
 - request:
     method: get
-    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372084/transactions?page=1
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy/accounts/4372084/transactions?page=1
     body:
       encoding: US-ASCII
       string: ''
@@ -790,7 +790,7 @@ http_interactions:
   recorded_at: Tue, 09 Jul 2013 02:29:36 GMT
 - request:
     method: get
-    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372084/transactions?page=1
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy/accounts/4372084/transactions?page=1
     body:
       encoding: US-ASCII
       string: ''
@@ -839,7 +839,7 @@ http_interactions:
   recorded_at: Tue, 09 Jul 2013 02:29:37 GMT
 - request:
     method: get
-    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372084/transactions?page=2
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy/accounts/4372084/transactions?page=2
     body:
       encoding: US-ASCII
       string: ''
@@ -890,7 +890,7 @@ http_interactions:
   recorded_at: Tue, 09 Jul 2013 02:29:37 GMT
 - request:
     method: get
-    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372084/transactions?page=3
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy/accounts/4372084/transactions?page=3
     body:
       encoding: US-ASCII
       string: ''
@@ -937,7 +937,7 @@ http_interactions:
   recorded_at: Tue, 09 Jul 2013 02:29:38 GMT
 - request:
     method: get
-    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372084/transactions?page=4
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy/accounts/4372084/transactions?page=4
     body:
       encoding: US-ASCII
       string: ''
@@ -982,7 +982,7 @@ http_interactions:
   recorded_at: Tue, 09 Jul 2013 02:29:39 GMT
 - request:
     method: get
-    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372084/transactions?page=5
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy/accounts/4372084/transactions?page=5
     body:
       encoding: US-ASCII
       string: ''
@@ -1029,7 +1029,7 @@ http_interactions:
   recorded_at: Tue, 09 Jul 2013 02:29:39 GMT
 - request:
     method: get
-    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372084/transactions?page=6
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy/accounts/4372084/transactions?page=6
     body:
       encoding: US-ASCII
       string: ''

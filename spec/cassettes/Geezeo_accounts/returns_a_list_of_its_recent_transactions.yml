@@ -47,7 +47,7 @@ http_interactions:
   recorded_at: Tue, 09 Jul 2013 02:29:13 GMT
 - request:
     method: get
-    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy//accounts/4372082/transactions?page=1
+    uri: https://abc123:@beta-geezeosandbox.geezeo.com/api/v1/users/testy/accounts/4372082/transactions?page=1
     body:
       encoding: US-ASCII
       string: ''

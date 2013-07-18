@@ -9,8 +9,8 @@ module Geezeo
         @credentials = credentials
       end
 
-      def path(account, page)
-        "/accounts/#{account.id}/transactions?page=#{page}"
+      def base_uri(account, page=1)
+        "#{HOST}/users/#{credentials.user_id}/accounts/#{account.id}/transactions?page=#{page}"
       end 
 
       def all(recent=false)
@@ -42,7 +42,7 @@ module Geezeo
       def find(account_id, page=1)
         account = account_id.is_a?(Integer) ? Geezeo::Adapters::Accounts.new(credentials).find(account_id) : account_id
 
-        response = request(account, page)
+        response = request(:get, base_uri(account, page))
 
         if response["transactions"]
           results = response["transactions"].map do |transaction|
@@ -59,18 +59,12 @@ module Geezeo
         Time.parse(transaction.posted_at) rescue Time.new(0)
       end
 
-      def request(account, page=1)
-        uri = "#{HOST}/users/#{credentials.user_id}/#{path(account, page)}"
-        HTTParty.get(uri, basic_auth:
-                            {username: credentials.api_key, password: ""})
-      end
-
       def sort_by_posted_at(transactions)
         transactions.sort_by{|transaction| posted_at(transaction)}.reverse
       end
 
       def total_pages(account)
-        response = request(account)
+        response = request(:get, base_uri(account))
         response["pages"]["total_pages"].to_i
       end
     end
