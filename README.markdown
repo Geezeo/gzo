@@ -60,7 +60,7 @@ The tests will run without credentials using the included VCR cassettes.
 If you wish to record new cassettes please set VCR_RECORD. You may want to
 delete any cassettes being re-recorded to ensure consistency.
 
-	bundle exec rspec VCR_RECORD=true
+	bundle exec rake VCR_RECORD=true
 
 For this to work you must have a ~/.geezeo/credentials.rb file with valid
 Geezeo API credentials.
