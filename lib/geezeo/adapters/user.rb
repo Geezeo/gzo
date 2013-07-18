@@ -3,17 +3,18 @@ module Geezeo
     class User
       attr_reader :credentials
 
+      include Requestable
+
       def initialize(credentials)
         @credentials = credentials
       end
 
-      def path
-        "#{HOST}/users"
+      def base_uri
+        "#{HOST}/users/#{credentials.user_id}"
       end
 
       def me
-        response = HTTParty.get("#{path}/#{credentials.user_id}",
-          basic_auth: {username: credentials.api_key, password: ""})
+        response = request(:get, base_uri)
 
         Geezeo::User.new(response)
       end
