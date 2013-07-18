@@ -25,7 +25,7 @@ module Geezeo
         when 200..201
           response         
         when 404
-          raise Ultracart::NotFound.new(response, params)
+          raise Geezeo::NotFound.new(response, params)
         end
       end
     end
