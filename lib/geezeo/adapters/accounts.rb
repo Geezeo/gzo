@@ -9,19 +9,20 @@ module Geezeo
         @credentials = credentials
       end
 
-      def base_uri
-        "#{HOST}/users/#{credentials.user_id}/accounts"
+      def uri(account_id=false)
+        account = account_id ? "/#{account_id}" : ""
+        "#{HOST}/users/#{credentials.user_id}/accounts#{account}"
       end
 
       def find(account_id)
-        response = request(:get, "#{base_uri}/#{account_id}")
+        response = request(:get, uri(account_id))
         
         response["credentials"] = credentials
         Geezeo::Account.new(response)
       end
 
       def all
-        response = request(:get, base_uri)
+        response = request(:get, uri)
 
         response["accounts"].map do |account|
           account["credentials"] = credentials

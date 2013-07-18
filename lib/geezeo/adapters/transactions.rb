@@ -9,7 +9,7 @@ module Geezeo
         @credentials = credentials
       end
 
-      def base_uri(account, page=1)
+      def uri(account, page=1)
         "#{HOST}/users/#{credentials.user_id}/accounts/#{account.id}/transactions?page=#{page}"
       end 
 
@@ -42,7 +42,7 @@ module Geezeo
       def find(account_id, page=1)
         account = account_id.is_a?(Integer) ? Geezeo::Adapters::Accounts.new(credentials).find(account_id) : account_id
 
-        response = request(:get, base_uri(account, page))
+        response = request(:get, uri(account, page))
 
         if response["transactions"]
           results = response["transactions"].map do |transaction|
@@ -64,7 +64,7 @@ module Geezeo
       end
 
       def total_pages(account)
-        response = request(:get, base_uri(account))
+        response = request(:get, uri(account))
         response["pages"]["total_pages"].to_i
       end
     end

@@ -9,12 +9,12 @@ module Geezeo
         @credentials = credentials
       end
 
-      def base_uri
+      def uri
         "#{HOST}/users/#{credentials.user_id}"
       end
 
       def me
-        response = request(:get, base_uri)
+        response = request(:get, uri)
 
         Geezeo::User.new(response)
       end
