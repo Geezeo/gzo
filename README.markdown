@@ -33,7 +33,7 @@ client.user                 # return current user
 ```
 
 Alternately you can set up local credentials using a configure block inside a
-file named ~/.geezeo/configure.rb
+file named ~/.geezeo/credentials.rb
 
 ```ruby
 Geezeo.configure do |config|
